@@ -12,6 +12,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	button_tb
 
+} {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/sampling_control.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/sampling_control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sampling_control
+
+Top level modules:
+	sampling_control
+
 } {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/pll_module_tb.sv {1 {vlog -work work -sv -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/pll_module_tb.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module pll_module_tb

@@ -54,6 +54,8 @@ module sampling_control_tb();
         repeat(1)@(posedge Fg_CLK_i);
         IntBTN_i <= 0;
         repeat(100000)@(posedge Fg_CLK_i);
+        
+        
         //test loop mode
         repeat(1)@(posedge Fg_CLK_i);
         IntBTN_i <= 1;
