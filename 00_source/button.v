@@ -12,7 +12,7 @@ module button(Fg_CLK,RESETn,ExtBTN,IntBTN);
 
 
     parameter [25:0] time_counter_limit = 300 ; //for test
-    // parameter [25:0] time_counter_limit = 2_400_000 ; //for 100 ms
+    // parameter [25:0] time_counter_limit =  2_400_000 ; //for 100 ms
     // parameter [25:0] time_counter_limit = 24_000_000 ; //for 1 sec
     
 always @(posedge Fg_CLK or negedge RESETn) begin

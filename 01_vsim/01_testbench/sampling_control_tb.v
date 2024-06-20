@@ -1,13 +1,26 @@
 `timescale 1ps/1ps
 
-module [name this file]();
+module sampling_control_tb();
 
     // ----------- registers -----------
+    reg Fg_CLK_i = 0;
+    reg RESETn_i = 1;
+    reg IntBTN = 0;
 
     // ----------- wires -----------
-
+    wire Ready_o;
+    wire Enable;
+    wire Mode;
+    
     // ----------- device under test -----------
-
+    sampling_control samp_module(
+        .Fg_CLK(),
+        .RESETn(),
+        .IntBTN(),
+        .Ready(),
+        .Enable(),
+        .Mode()
+        );
 
     // ----------- system signal generator-----------
     always #(1) clk = ~clk;
@@ -22,8 +35,8 @@ module [name this file]();
 
     // ----------- dumping wave -----------
     initial begin
-        $dumpfile("[name this file].vcd");
-        $dumpvars(0,[name this file]);
+        $dumpfile("sampling_control_tb.vcd");
+        $dumpvars(0,sampling_control_tb);
         
     end
     
