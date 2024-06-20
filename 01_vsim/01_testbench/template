@@ -1,0 +1,31 @@
+
+`timescale 1ps/1ps
+
+module [name this file]();
+
+    // ----------- registers -----------
+
+    // ----------- wires -----------
+
+    // ----------- device under test -----------
+
+
+    // ----------- system signal generator-----------
+    always #(1) clk = ~clk;
+
+    // ----------- test scenarios -----------
+    initial begin
+        $display("Starting test");
+        
+        
+        $stop;
+    end
+
+    // ----------- dumping wave -----------
+    initial begin
+        $dumpfile("[name this file].vcd");
+        $dumpvars(0,[name this file]);
+        
+    end
+    
+endmodule

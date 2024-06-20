@@ -1,0 +1,1098 @@
+# Loading project DDS_project
+pwd
+# /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim
+do 02_script/sim.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:26 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# ** Error: 01_testbench/pll_module_tb.v(16): (vlog-2730) Undefined variable: 'int'.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(16): near "i": syntax error, unexpected IDENTIFIER.
+# ** Error: 01_testbench/pll_module_tb.v(16): (vlog-2730) Undefined variable: 'i'.
+# ** Error: (vlog-13036) 01_testbench/pll_module_tb.v(16): near "++": Operator only allowed in SystemVerilog.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(16): near ")": syntax error, unexpected ')', expecting ';'.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(21): near "i": syntax error, unexpected IDENTIFIER.
+# ** Error: (vlog-13036) 01_testbench/pll_module_tb.v(21): near "++": Operator only allowed in SystemVerilog.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(21): near ")": syntax error, unexpected ')', expecting ';'.
+# ** Error: (vlog-13036) 01_testbench/pll_module_tb.v(26): near "++": Operator only allowed in SystemVerilog.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(26): near ")": syntax error, unexpected ')', expecting ';'.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(56): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(62): near "end": syntax error, unexpected end.
+# ** Error: 01_testbench/clk_divider_tb.v(6): Variable declaration assignments are allowed only at the module level or if the variables are automatic.
+# ** Error: 01_testbench/clk_divider_tb.v(7): Variable declaration assignments are allowed only at the module level or if the variables are automatic.
+# ** Error: 01_testbench/clk_divider_tb.v(10): Illegal declaration after the statement near line '3'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: 01_testbench/clk_divider_tb.v(17): (vlog-2730) Undefined variable: 'Fg_CLK_tb'.
+# ** Error: 01_testbench/clk_divider_tb.v(18): (vlog-2730) Undefined variable: 'Dac_CLK_tb'.
+# ** Error (suppressible): 01_testbench/clk_divider_tb.v(14): (vlog-13367) Checkers are not allowed in tasks methods (ignoring this checker instance).
+# ** Error: (vlog-13069) 01_testbench/clk_divider_tb.v(22): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) 01_testbench/clk_divider_tb.v(34): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) 01_testbench/clk_divider_tb.v(40): near "end": syntax error, unexpected end.
+# End time: 14:25:26 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 21, Warnings: 0
+# ** Error: /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./02_script/sim.do line 2
+# /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -file ./00_filelist/src.f \
+#     -file ./00_filelist/tb.f"
+# Compile of pll_module.v was successful.
+# Compile of pll_module_tb.v failed with 12 errors.
+# Compile of clk_divider.v was successful.
+# Compile of clk_divider_tb.v was successful.
+# 4 compiles, 1 failed with 12 errors.
+do 02_script/sim.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:26:16 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# ** Error: (vlog-13027) 01_testbench/pll_module_tb.v(16): near "i": Syntax error. 'for' loop variable declaration only allowed in SystemVerilog.
+# ** Error: 01_testbench/pll_module_tb.v(16): (vlog-2730) Undefined variable: 'i'.
+# ** Error: (vlog-13036) 01_testbench/pll_module_tb.v(16): near "++": Operator only allowed in SystemVerilog.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(16): near ")": syntax error, unexpected ')', expecting ';'.
+# ** Error: (vlog-13027) 01_testbench/pll_module_tb.v(21): near "i": Syntax error. 'for' loop variable declaration only allowed in SystemVerilog.
+# ** Error: (vlog-13036) 01_testbench/pll_module_tb.v(21): near "++": Operator only allowed in SystemVerilog.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(21): near ")": syntax error, unexpected ')', expecting ';'.
+# ** Error: (vlog-13036) 01_testbench/pll_module_tb.v(26): near "++": Operator only allowed in SystemVerilog.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(26): near ")": syntax error, unexpected ')', expecting ';'.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(56): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(62): near "end": syntax error, unexpected end.
+# ** Error: 01_testbench/clk_divider_tb.v(6): Variable declaration assignments are allowed only at the module level or if the variables are automatic.
+# ** Error: 01_testbench/clk_divider_tb.v(7): Variable declaration assignments are allowed only at the module level or if the variables are automatic.
+# ** Error: 01_testbench/clk_divider_tb.v(10): Illegal declaration after the statement near line '3'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: 01_testbench/clk_divider_tb.v(17): (vlog-2730) Undefined variable: 'Fg_CLK_tb'.
+# ** Error: 01_testbench/clk_divider_tb.v(18): (vlog-2730) Undefined variable: 'Dac_CLK_tb'.
+# ** Error (suppressible): 01_testbench/clk_divider_tb.v(14): (vlog-13367) Checkers are not allowed in tasks methods (ignoring this checker instance).
+# ** Error: (vlog-13069) 01_testbench/clk_divider_tb.v(22): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) 01_testbench/clk_divider_tb.v(34): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) 01_testbench/clk_divider_tb.v(40): near "end": syntax error, unexpected end.
+# End time: 14:26:16 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 20, Warnings: 0
+# ** Error: /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./02_script/sim.do line 2
+# /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -file ./00_filelist/src.f \
+#     -file ./00_filelist/tb.f"
+# Compile of pll_module.v was successful.
+# Compile of pll_module_tb.v failed with 11 errors.
+# Compile of clk_divider.v was successful.
+# Compile of clk_divider_tb.v was successful.
+# 4 compiles, 1 failed with 11 errors.
+# Compile of pll_module_tb.sv failed with 3 errors.
+clear
+# [H[2J[3J
+do 02_script/sim.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:29:05 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# ** Error: (vlog-13027) 01_testbench/pll_module_tb.v(16): near "i": Syntax error. 'for' loop variable declaration only allowed in SystemVerilog.
+# ** Error: 01_testbench/pll_module_tb.v(16): (vlog-2730) Undefined variable: 'i'.
+# ** Error: (vlog-13036) 01_testbench/pll_module_tb.v(16): near "++": Operator only allowed in SystemVerilog.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(16): near ")": syntax error, unexpected ')', expecting ';'.
+# ** Error: (vlog-13027) 01_testbench/pll_module_tb.v(21): near "i": Syntax error. 'for' loop variable declaration only allowed in SystemVerilog.
+# ** Error: (vlog-13036) 01_testbench/pll_module_tb.v(21): near "++": Operator only allowed in SystemVerilog.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(21): near ")": syntax error, unexpected ')', expecting ';'.
+# ** Error: (vlog-13036) 01_testbench/pll_module_tb.v(26): near "++": Operator only allowed in SystemVerilog.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(26): near ")": syntax error, unexpected ')', expecting ';'.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(56): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.v(62): near "end": syntax error, unexpected end.
+# ** Error: 01_testbench/clk_divider_tb.v(6): Variable declaration assignments are allowed only at the module level or if the variables are automatic.
+# ** Error: 01_testbench/clk_divider_tb.v(7): Variable declaration assignments are allowed only at the module level or if the variables are automatic.
+# ** Error: 01_testbench/clk_divider_tb.v(10): Illegal declaration after the statement near line '3'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: 01_testbench/clk_divider_tb.v(17): (vlog-2730) Undefined variable: 'Fg_CLK_tb'.
+# ** Error: 01_testbench/clk_divider_tb.v(18): (vlog-2730) Undefined variable: 'Dac_CLK_tb'.
+# ** Error (suppressible): 01_testbench/clk_divider_tb.v(14): (vlog-13367) Checkers are not allowed in tasks methods (ignoring this checker instance).
+# ** Error: (vlog-13069) 01_testbench/clk_divider_tb.v(22): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) 01_testbench/clk_divider_tb.v(34): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) 01_testbench/clk_divider_tb.v(40): near "end": syntax error, unexpected end.
+# End time: 14:29:05 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 20, Warnings: 0
+# ** Error: /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./02_script/sim.do line 2
+# /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -file ./00_filelist/src.f \
+#     -file ./00_filelist/tb.f"
+do 02_script/sim.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:29:37 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.sv(18): near "@": syntax error, unexpected '@', expecting '('.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.sv(23): near "@": syntax error, unexpected '@', expecting '('.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.sv(28): near "@": syntax error, unexpected '@', expecting '('.
+# -- Compiling module clk_divider_tb
+# End time: 14:29:37 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./02_script/sim.do line 2
+# /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -file ./00_filelist/src.f \
+#     -file ./00_filelist/tb.f"
+do 02_script/sim.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:30:15 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.sv(18): near "@": syntax error, unexpected '@', expecting '('.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.sv(23): near "@": syntax error, unexpected '@', expecting '('.
+# ** Error: (vlog-13069) 01_testbench/pll_module_tb.sv(28): near "@": syntax error, unexpected '@', expecting '('.
+# -- Compiling module clk_divider_tb
+# End time: 14:30:15 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./02_script/sim.do line 2
+# /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -file ./00_filelist/src.f \
+#     -file ./00_filelist/tb.f"
+do 02_script/sim.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:31:24 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 14:31:24 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.pll_module_tb -L gowin 
+# Start time: 14:31:24 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.pll_module_tb
+# Loading work.pll_module
+# Loading gowin.rPLL
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Starting test
+# ** Note: $stop    : 01_testbench/pll_module_tb.sv(55)
+#    Time: 742553282 ps  Iteration: 1  Instance: /pll_module_tb
+# Break in Module pll_module_tb at 01_testbench/pll_module_tb.sv line 55
+# 0 ps
+# 779680946 ps
+add wave -position insertpoint  \
+sim:/pll_module_tb/button_t
+restart
+# Closing VCD file "pll_module_tb.vcd"
+run -all
+# Starting test
+# ** Note: $stop    : 01_testbench/pll_module_tb.sv(55)
+#    Time: 742553282 ps  Iteration: 1  Instance: /pll_module_tb
+# Break in Module pll_module_tb at 01_testbench/pll_module_tb.sv line 55
+do 02_script/sim.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:35:14 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 14:35:14 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:35:17 on Jun 19,2024, Elapsed time: 0:03:53
+# Errors: 0, Warnings: 1
+# vsim work.pll_module_tb -L gowin 
+# Start time: 14:35:17 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.pll_module_tb
+# Loading work.pll_module
+# Loading gowin.rPLL
+# Starting test
+# ** Note: $stop    : 01_testbench/pll_module_tb.sv(57)
+#    Time: 745516162 ps  Iteration: 1  Instance: /pll_module_tb
+# Break in Module pll_module_tb at 01_testbench/pll_module_tb.sv line 57
+# 0 ps
+# 782791970 ps
+add wave -position insertpoint  \
+sim:/pll_module_tb/button_t
+restart
+# Closing VCD file "pll_module_tb.vcd"
+run -all
+# Starting test
+# ** Note: $stop    : 01_testbench/pll_module_tb.sv(57)
+#    Time: 745516162 ps  Iteration: 1  Instance: /pll_module_tb
+# Break in Module pll_module_tb at 01_testbench/pll_module_tb.sv line 57
+do 02_script/sim.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:39:22 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# ** Warning: 01_testbench/pll_module_tb.v(3): (vlog-2275) Existing module 'pll_module_tb' will be overwritten.
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 14:39:22 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 14:39:22 on Jun 19,2024, Elapsed time: 0:04:05
+# Errors: 0, Warnings: 1
+# vsim work.pll_module_tb -L gowin 
+# Start time: 14:39:22 on Jun 19,2024
+# Loading work.pll_module_tb
+# Loading work.pll_module
+# Loading gowin.rPLL
+# Starting test
+# ** Note: $stop    : 01_testbench/pll_module_tb.v(32)
+#    Time: 740701482 ps  Iteration: 1  Instance: /pll_module_tb
+# Break in Module pll_module_tb at 01_testbench/pll_module_tb.v line 32
+# 0 ps
+# 777736556 ps
+add wave -position insertpoint  \
+sim:/pll_module_tb/button_t
+# ** UI-Msg: (vish-4014) No objects found matching '/pll_module_tb/button_t'.
+do 02_script/sim.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:39:49 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# ** Warning: 01_testbench/pll_module_tb.v(3): (vlog-2275) Existing module 'pll_module_tb' will be overwritten.
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 14:39:49 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 14:39:49 on Jun 19,2024, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 1
+# vsim work.pll_module_tb -L gowin 
+# Start time: 14:39:49 on Jun 19,2024
+# Loading work.pll_module_tb
+# Loading work.pll_module
+# Loading gowin.rPLL
+# Starting test
+# ** Note: $stop    : 01_testbench/pll_module_tb.v(32)
+#    Time: 740701482 ps  Iteration: 1  Instance: /pll_module_tb
+# Break in Module pll_module_tb at 01_testbench/pll_module_tb.v line 32
+# 0 ps
+# 777736556 ps
+# Load canceled
+do 02_script/sim.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:41:38 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# ** Warning: 01_testbench/pll_module_tb.v(3): (vlog-2275) Existing module 'pll_module_tb' will be overwritten.
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 14:41:38 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 14:41:39 on Jun 19,2024, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 1
+# vsim work.pll_module_tb -L gowin 
+# Start time: 14:41:39 on Jun 19,2024
+# Loading work.pll_module_tb
+# Loading work.pll_module
+# Loading gowin.rPLL
+# Starting test
+# ** Note: $stop    : 01_testbench/pll_module_tb.v(32)
+#    Time: 740701482 ps  Iteration: 1  Instance: /pll_module_tb
+# Break in Module pll_module_tb at 01_testbench/pll_module_tb.v line 32
+# 0 ps
+# 777736556 ps
+do 02_script/sim.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:41:52 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 14:41:52 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:41:53 on Jun 19,2024, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 1
+# vsim work.pll_module_tb -L gowin 
+# Start time: 14:41:53 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.pll_module_tb
+# Loading work.pll_module
+# Loading gowin.rPLL
+# Starting test
+# ** Note: $stop    : 01_testbench/pll_module_tb.sv(57)
+#    Time: 745516162 ps  Iteration: 1  Instance: /pll_module_tb
+# Break in Module pll_module_tb at 01_testbench/pll_module_tb.sv line 57
+# 0 ps
+# 782791970 ps
+# Compile of pll_module.v was successful.
+# Compile of pll_module_tb.v was successful.
+# Compile of clk_divider.v was successful.
+# Compile of clk_divider_tb.v was successful.
+# Compile of pll_module_tb.sv was successful.
+# Compile of button_tb.sv failed with 8 errors.
+# Compile of button.v was successful.
+# 7 compiles, 1 failed with 8 errors.
+# Compile of button_tb.sv failed with 4 errors.
+# Compile of button_tb.sv failed with 1 errors.
+# Compile of button_tb.sv was successful.
+vsim -L gowin work.button
+# End time: 15:25:58 on Jun 19,2024, Elapsed time: 0:44:05
+# Errors: 0, Warnings: 7
+# vsim -L gowin work.button 
+# Start time: 15:25:58 on Jun 19,2024
+# Loading work.button
+add wave -position insertpoint  \
+sim:/button/Fg_CLK \
+sim:/button/RESETn \
+sim:/button/ExtBTN \
+sim:/button/IntBTN
+restart
+run -all
+run -all
+restart
+run -all
+run -all
+# Compile of button_tb.sv was successful.
+vsim -L gowin work.button_tb
+# End time: 15:30:27 on Jun 19,2024, Elapsed time: 0:04:29
+# Errors: 0, Warnings: 2
+# vsim -L gowin work.button_tb 
+# Start time: 15:30:27 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.button_tb
+# Loading work.button
+# ** Error: (vsim-3063) Port 'ExtBTN_i' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /button_tb/button_module File: /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv Line: 39
+# Error loading design
+# End time: 15:30:27 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim -L gowin work.button_tb
+# vsim -L gowin work.button_tb 
+# Start time: 15:30:55 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.button_tb
+# Loading work.button
+# ** Error: (vsim-3063) Port 'ExtBTN_i' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /button_tb/button_module File: /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv Line: 39
+# Error loading design
+# End time: 15:30:55 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Load canceled
+vsim -L gowin work.button_tb
+# vsim -L gowin work.button_tb 
+# Start time: 15:32:04 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.button_tb
+# Loading work.button
+# ** Error: (vsim-3063) Port 'ExtBTN_i' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /button_tb/button_module File: /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv Line: 39
+# Error loading design
+# End time: 15:32:04 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of button_tb.sv was successful.
+vsim -L gowin work.button_tb
+# vsim -L gowin work.button_tb 
+# Start time: 15:33:43 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.button_tb
+# Loading work.button
+add wave -position insertpoint  \
+sim:/button_tb/Fg_CLK_i \
+sim:/button_tb/RESETn_i \
+sim:/button_tb/ExtBTN_i \
+sim:/button_tb/IntBTN_o
+run -all
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(55)
+#    Time: 170872266 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 55
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:36:43 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 15:36:43 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(55)
+#    Time: 170872266 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 55
+# 0 ps
+# 179415879 ps
+
+# Compile of button_tb.sv failed with 5 errors.
+# Compile of button_tb.sv was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:41:45 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 15:41:45 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button_tb
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(57)
+#    Time: 87540266 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 57
+# 0 ps
+# 91917279 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:22 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 15:45:22 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(57)
+#    Time: 87540266 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 57
+# 0 ps
+# 91917279 ps
+# Compile of button_tb.sv was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:35 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 15:45:35 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button_tb
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(57)
+#    Time: 9166520 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 57
+# 0 ps
+# 9624846 ps
+# Compile of button_tb.sv was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:46:46 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 15:46:46 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button_tb
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(57)
+#    Time: 46665920 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 57
+# 0 ps
+# 48999216 ps
+# Compile of button_tb.sv was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:54:31 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 15:54:31 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button_tb
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(58)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 58
+# 0 ps
+# 50180447 ps
+# Compile of button.v failed with 1 errors.
+# Compile of button.v failed with 1 errors.
+# Compile of button.v was successful.
+vsim -L gowin work.button_tb
+# End time: 16:12:02 on Jun 19,2024, Elapsed time: 0:38:19
+# Errors: 0, Warnings: 4
+# vsim -L gowin work.button_tb 
+# Start time: 16:12:02 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.button_tb
+# Loading work.button
+add wave -position insertpoint  \
+sim:/button_tb/Fg_CLK_i \
+sim:/button_tb/task_CLK \
+sim:/button_tb/RESETn_i \
+sim:/button_tb/ExtBTN_i \
+sim:/button_tb/IntBTN_o
+run -all
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(58)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 58
+add wave -position insertpoint /button_tb/button_module/time_counter_limit
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:31 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:13:31 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(58)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 58
+# 0 ps
+# 50180447 ps
+# Compile of button.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:50 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:14:50 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(58)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 58
+# 0 ps
+# 50180447 ps
+vsim -L gowin work.button_tb
+# End time: 16:15:08 on Jun 19,2024, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 1
+# vsim -L gowin work.button_tb 
+# Start time: 16:15:08 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.button_tb
+# Loading work.button
+add wave -position insertpoint sim:/button_tb/button_module/counter
+run -all
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(58)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 58
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:17:09 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:17:09 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(58)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 58
+# 0 ps
+# 50180447 ps
+# Compile of button_tb.sv was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:17:20 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:17:20 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button_tb
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(61)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 61
+# 0 ps
+# 50180447 ps
+add wave -position insertpoint  \
+sim:/button_tb/Fg_CLK_i \
+sim:/button_tb/task_CLK \
+sim:/button_tb/RESETn_i \
+sim:/button_tb/ExtBTN_i \
+sim:/button_tb/IntBTN_o
+restart
+# Closing VCD file "button_tb.vcd"
+run -all
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(61)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 61
+# Compile of button_tb.sv was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:19:14 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:19:14 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button_tb
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(60)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 60
+# 0 ps
+# 50180447 ps
+# Compile of button.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:27:28 on Jun 19,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:27:28 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(60)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 60
+# 0 ps
+# 50180447 ps
+# Compile of button.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:04:24 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:04:24 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(60)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 60
+# 0 ps
+# 50180447 ps
+# Compile of button.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:10:04 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:10:04 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(60)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 60
+# 0 ps
+# 50180447 ps
+# Compile of button.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:10:32 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:10:32 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(60)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 60
+# 0 ps
+# 50180447 ps
+# Compile of button.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:00 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:14:00 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(60)
+#    Time: 47790902 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 60
+# 0 ps
+# 50180447 ps
+# Compile of button_tb.sv was successful.
+# Compile of button.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:20:05 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:20:05 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button_tb
+# Loading work.button
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(61)
+#    Time: 48207562 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 61
+# 0 ps
+# 50617940 ps
+# Compile of button_tb.sv was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:25:00 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:25:00 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button_tb
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(62)
+#    Time: 66832264 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 62
+# 0 ps
+# 70173877 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:25:20 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:25:21 on Jun 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(62)
+#    Time: 66832264 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 62
+# 0 ps
+# 70173877 ps
+# Compile of button_tb.sv was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:27:07 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:27:07 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button_tb
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(62)
+#    Time: 62998992 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 62
+# 0 ps
+# 66148942 ps
+# Compile of button_tb.sv was successful.
+# Compile of button_tb.sv was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:32 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:28:32 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button_tb
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(62)
+#    Time: 63248988 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 62
+# 0 ps
+# 66411437 ps
+# Compile of button_tb.sv was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:29:06 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:29:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button_tb
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(62)
+#    Time: 66832264 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 62
+# 0 ps
+# 70173877 ps
+# Compile of button_tb.sv was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:30:15 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:30:16 on Jun 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button_tb
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(62)
+#    Time: 66248940 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 62
+# 0 ps
+# 69561387 ps
+# Compile of button_tb.sv was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:37:56 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:37:56 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button_tb
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(62)
+#    Time: 66832264 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 62
+# 0 ps
+# 70173877 ps
+add wave -position insertpoint sim:/button_tb/button_module/enable_counter
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:39:44 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:39:44 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(62)
+#    Time: 66832264 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 62
+# 0 ps
+# 70173877 ps
+# Compile of button.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:47:29 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# End time: 16:47:29 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "button_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.button
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(62)
+#    Time: 66832264 ps  Iteration: 1  Instance: /button_tb
+# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 62
+# 0 ps
+# 70173877 ps
