@@ -43,7 +43,7 @@ endtask
     );
 
     // ----------- system signal generator-----------
-    always #(37037/2) clkin_i = ~clkin_i;
+    always #(37037/2) clkin_i = ~clkin_i; //27M
 
     // ----------- test scenarios -----------
     initial begin
