@@ -1568,3 +1568,490 @@ do 02_script/rerun.do
 # Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
 # 0 ps
 # 1237886444 ps
+add wave -position insertpoint  \
+sim:/sampling_control_tb/samp_module/reg_pulse
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:16:41 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:16:41 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1178939470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 1237886444 ps
+# Compile of sampling_control_tb.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:17:48 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:17:48 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1928927470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 2025373844 ps
+# Compile of sampling_control.v failed with 2 errors.
+# Compile of sampling_control.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:14 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:22:14 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1928927470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 2025373844 ps
+# Compile of sampling_control.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:23:38 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:23:38 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1928927470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 2025373844 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:24:07 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# ** Error: (vlog-13069) ../00_source/sampling_control.v(58): near "=": syntax error, unexpected '=', expecting ++ or --.
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# End time: 20:24:07 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./02_script/rerun.do line 2
+# /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -file ./00_filelist/src.f \
+#     -file ./00_filelist/tb.f"
+# Compile of sampling_control.v failed with 1 errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:24:37 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# ** Error: (vlog-13069) ../00_source/sampling_control.v(58): near "=": syntax error, unexpected '=', expecting ++ or --.
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# End time: 20:24:37 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./02_script/rerun.do line 2
+# /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -file ./00_filelist/src.f \
+#     -file ./00_filelist/tb.f"
+# Compile of sampling_control.v failed with 1 errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:25:15 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:25:15 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1928927470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 2025373844 ps
+# Compile of sampling_control.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:25:28 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:25:28 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1928927470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 2025373844 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:26:34 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:26:34 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1928927470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 2025373844 ps
+# Compile of sampling_control.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:26:53 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:26:54 on Jun 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1928927470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 2025373844 ps
+# Compile of sampling_control.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:28:53 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:28:53 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1928927470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 2025373844 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:31:05 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:31:05 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1928927470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 2025373844 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:32:06 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:32:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1928927470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 2025373844 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:33:00 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:33:00 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1928927470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 2025373844 ps
+# Compile of sampling_control.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:33:08 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:33:08 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1928927470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 2025373844 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:35:36 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:35:36 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(110)
+#    Time: 1928927470 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 110
+# 0 ps
+# 2025373844 ps
+# Compile of sampling_control.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:41:41 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:41:41 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(115)
+#    Time: 10262294134 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 115
+# 0 ps
+# 10775408841 ps
+# Compile of pll_module.v was successful.
+# Compile of pll_module_tb.v was successful.
+# Compile of clk_divider.v was successful.
+# Compile of clk_divider_tb.v was successful.
+# Compile of pll_module_tb.sv was successful.
+# Compile of button_tb.sv was successful.
+# Compile of button.v was successful.
+# Compile of sampling_control_tb.v was successful.
+# Compile of sampling_control.v was successful.
+# 9 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/sampling_control_tb/samp_module/counter_Enable
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:44:09 on Jun 20,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# End time: 20:44:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "sampling_control_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sampling_control_tb
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : 01_testbench/sampling_control_tb.v(115)
+#    Time: 10262294134 ps  Iteration: 1  Instance: /sampling_control_tb
+# Break in Module sampling_control_tb at 01_testbench/sampling_control_tb.v line 115
+# 0 ps
+# 10775408841 ps

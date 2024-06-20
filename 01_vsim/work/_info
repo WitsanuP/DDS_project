@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 d/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim
 vbutton
-Z1 !s110 1718886120
+Z1 !s110 1718890972
 !i10b 1
 !s100 58dlSiS_5Kbn7OdmgLOKl2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ R0
 w1718882948
 8/home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/button.v
 F/home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/button.v
-!i122 148
+!i122 208
 L0 1 59
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1718886120.000000
+Z5 !s108 1718890972.000000
 !s107 /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/button.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/button.v|
 !i113 1
@@ -45,7 +45,7 @@ R0
 w1718876039
 Z8 8/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv
 Z9 F/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv
-!i122 147
+!i122 207
 L0 3 70
 R4
 r1
@@ -58,7 +58,7 @@ Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pol/Documents/KMIT
 Z12 o-work work -sv
 R6
 vclk_divider
-Z13 !s110 1718889200
+Z13 !s110 1718891049
 !i10b 1
 !s100 OH7c3;8Gk4R_9@b[_`R<;3
 R2
@@ -68,13 +68,13 @@ R0
 w1718715180
 8../00_source/clk_divider.v
 F../00_source/clk_divider.v
-!i122 176
+!i122 211
 L0 1 21
 R4
 r1
 !s85 0
 31
-Z14 !s108 1718889200.000000
+Z14 !s108 1718891049.000000
 !s107 01_testbench/sampling_control_tb.v|01_testbench/clk_divider_tb.v|01_testbench/pll_module_tb.sv|../00_source/sampling_control.v|../00_source/clk_divider.v|../00_source/pll_module.v|
 Z15 !s90 -reportprogress|300|-file|./00_filelist/src.f|-file|./00_filelist/tb.f|
 !i113 1
@@ -90,7 +90,7 @@ R0
 w1718716731
 801_testbench/clk_divider_tb.v
 F01_testbench/clk_divider_tb.v
-!i122 176
+!i122 211
 L0 3 40
 R4
 r1
@@ -138,7 +138,7 @@ R0
 w1718633173
 8../00_source/pll_module.v
 F../00_source/pll_module.v
-!i122 176
+!i122 211
 L0 10 56
 R4
 r1
@@ -162,7 +162,7 @@ R0
 w1718886111
 801_testbench/pll_module_tb.sv
 F01_testbench/pll_module_tb.sv
-!i122 176
+!i122 211
 L0 3 64
 R4
 r1
@@ -176,16 +176,16 @@ R6
 vsampling_control
 R13
 !i10b 1
-!s100 =GWzccoP_N6M0n:9:@CzW1
+!s100 YiePR9g9cY2ZDhV;QPlmA2
 R2
-I7o8;VLW[gcJaUdmU]nf3A1
+I:mmKNonnz6Q76dn:7HKRn1
 R3
 R0
-w1718889184
+w1718890665
 8../00_source/sampling_control.v
 F../00_source/sampling_control.v
-!i122 176
-L0 1 69
+!i122 211
+L0 1 73
 R4
 r1
 !s85 0
@@ -198,16 +198,16 @@ R6
 vsampling_control_tb
 R13
 !i10b 1
-!s100 FI[R0>Y7`LBdTTMLN]fMm2
+!s100 KQNQ6:M1;=Cgbafk^d>A`2
 R2
-ICFB;NdG@D_SFdghD9S<ME0
+Ih597dACZAH]9V?EU17MD73
 R3
 R0
-w1718887933
+w1718890898
 801_testbench/sampling_control_tb.v
 F01_testbench/sampling_control_tb.v
-!i122 176
-L0 3 116
+!i122 211
+L0 3 121
 R4
 r1
 !s85 0
