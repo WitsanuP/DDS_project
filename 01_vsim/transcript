@@ -626,3 +626,411 @@ do 02_script/rerun.do
 # Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 91
 # 0 ps
 # 57139167009 ps
+# Compile of pll_module.v was successful.
+# Compile of pll_module_tb.v was successful.
+# Compile of clk_divider.v was successful.
+# Compile of clk_divider_tb.v was successful.
+# Compile of pll_module_tb.sv was successful.
+# Compile of button_tb.sv was successful.
+# Compile of button.v was successful.
+# Compile of sampling_control_tb.v was successful.
+# Compile of sampling_control.v was successful.
+# Compile of oscillator.v was successful.
+# Compile of oscillator_tb.v was successful.
+# Compile of interpolator.v failed with 3 errors.
+# Compile of interpolator_tb.v was successful.
+# 13 compiles, 1 failed with 3 errors.
+# Compile of interpolator.v failed with 4 errors.
+# Compile of interpolator.v failed with 4 errors.
+# Compile of interpolator.v failed with 4 errors.
+# Compile of interpolator.v failed with 4 errors.
+# Compile of interpolator.v failed with 3 errors.
+# Compile of interpolator.v was successful.
+vsim work.interpolator_tb
+# End time: 19:23:18 on Jun 21,2024, Elapsed time: 2:48:20
+# Errors: 0, Warnings: 10
+# vsim work.interpolator_tb 
+# Start time: 19:23:18 on Jun 21,2024
+# Loading work.interpolator_tb
+# Loading work.sampling_control
+# Loading work.oscillator
+# Loading work.interpolator
+add wave -position insertpoint  \
+sim:/interpolator_tb/Fg_CLK_tb \
+sim:/interpolator_tb/RESETn_tb \
+sim:/interpolator_tb/IntBTN_i \
+sim:/interpolator_tb/Ready_o \
+sim:/interpolator_tb/Enable_o \
+sim:/interpolator_tb/Mode_o \
+sim:/interpolator_tb/out1_o \
+sim:/interpolator_tb/out2_o \
+sim:/interpolator_tb/interpOut_o
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:23:28 on Jun 21,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# End time: 19:23:28 on Jun 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
+# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# 0 ps
+# 57139167009 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:24:50 on Jun 21,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# End time: 19:24:50 on Jun 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "interpolator_tb.vcd"
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
+# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# 0 ps
+# 57139167009 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:31:52 on Jun 21,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# End time: 19:31:52 on Jun 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "interpolator_tb.vcd"
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
+# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# 0 ps
+# 57139167009 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:33:26 on Jun 21,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# End time: 19:33:26 on Jun 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "interpolator_tb.vcd"
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
+# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# 0 ps
+# 57139167009 ps
+add wave -position insertpoint  \
+sim:/interpolator_tb/interp_module/delta_y
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:33:54 on Jun 21,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# End time: 19:33:54 on Jun 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "interpolator_tb.vcd"
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
+# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# 0 ps
+# 57139167009 ps
+# Compile of interpolator.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:34:39 on Jun 21,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# End time: 19:34:40 on Jun 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Closing VCD file "interpolator_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sampling_control
+# Loading work.interpolator
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
+# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# 0 ps
+# 57139167009 ps
+add wave -position insertpoint sim:/interpolator_tb/interp_module/delta_y_buffer
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:38:04 on Jun 21,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# End time: 19:38:04 on Jun 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "interpolator_tb.vcd"
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
+# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# 0 ps
+# 57139167009 ps
+add wave -position insertpoint sim:/interpolator_tb/interp_module/interpOut_buffer
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:39:40 on Jun 21,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# End time: 19:39:40 on Jun 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "interpolator_tb.vcd"
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
+# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# 0 ps
+# 57139167009 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:41:11 on Jun 21,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# End time: 19:41:11 on Jun 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "interpolator_tb.vcd"
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
+# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# 0 ps
+# 57139167009 ps
+add wave -position insertpoint  \
+sim:/interpolator_tb/interp_module/Enable_delay
+add wave -position insertpoint  \
+sim:/interpolator_tb/interp_module/Enable_delay
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:43:40 on Jun 21,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# End time: 19:43:40 on Jun 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "interpolator_tb.vcd"
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
+# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# 0 ps
+# 57139167009 ps
+# Compile of interpolator.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:28 on Jun 21,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# End time: 19:54:28 on Jun 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "interpolator_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sampling_control
+# Loading work.interpolator
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
+# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# 0 ps
+# 57139167009 ps
+add wave -position insertpoint sim:/interpolator_tb/interp_module/debug
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:55:05 on Jun 21,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# End time: 19:55:05 on Jun 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "interpolator_tb.vcd"
+# Loading work.sampling_control
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
+# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# 0 ps
+# 57139167009 ps
+# Compile of interpolator.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:56:06 on Jun 21,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# End time: 19:56:06 on Jun 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "interpolator_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sampling_control
+# Loading work.interpolator
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
+# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# 0 ps
+# 57139167009 ps
+# Compile of interpolator.v was successful.

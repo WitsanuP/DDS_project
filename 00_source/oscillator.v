@@ -3,8 +3,8 @@ module oscillator (Fg_CLK, RESETn, Enable, Ready, init1, init2, out1, out2);
     input RESETn;
     input Enable;
     input Ready;
-    input  [31:0] init1;
-    input  [31:0] init2;
+    input [31:0] init2;
+    input [31:0] init1;
 
     output reg [31:0] out1;
     output reg [31:0] out2;

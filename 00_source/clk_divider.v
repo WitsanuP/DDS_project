@@ -5,14 +5,14 @@ module clk_divider(PLL_CLK,RESETn,Fg_CLK,Dac_CLK);
     output reg Dac_CLK;
 
 
-always @(posedge PLL_CLK) begin
+always @(posedge PLL_CLK or negedge RESETn) begin
     if(~RESETn)
         Fg_CLK = 0;
     else
         Fg_CLK = ~Fg_CLK;
 end
 
-always @(negedge PLL_CLK) begin
+always @(negedge PLL_CLK or negedge RESETn) begin
     if(~RESETn)
         Dac_CLK = 0;
     else
