@@ -18,8 +18,8 @@ for i in range(0,2048):
     y1 = (int(y1) & 0x01FFFFFE) >> 1
 
     if (n <= 1000):
-        f.write("%06x%06x\n" % (alpha, y1))
+        f.write("%06x%06x \n" % (alpha, y1))
         n = n + 0.5
     else :
-        f.write("%06x%06x\n" % (0, 0))
+        f.write("%06x%06x \n" % (0, 0))
         n = n + 0.5

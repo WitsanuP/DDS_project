@@ -1,0 +1,3 @@
+onerror {resume}
+::add watch sim:/rotary_tb/rotary_module/count -noglob -x 0.0 -y 0.0 -radix default -radixenum default
+
