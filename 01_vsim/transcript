@@ -1034,3 +1034,5 @@ do 02_script/rerun.do
 # 0 ps
 # 57139167009 ps
 # Compile of interpolator.v was successful.
+# End time: 20:05:45 on Jun 21,2024, Elapsed time: 0:42:27
+# Errors: 0, Warnings: 2

@@ -25,9 +25,7 @@ always @(posedge Fg_CLK or negedge RESETn) begin
         D1 <= ExtBTN;
         D2 <= D1;
         D3 <= D2;
-        if(~enable_counter)
-            IntBTN <= (~D2 & D3 &(counter == 0));
-        
+        if(~enable_counter) IntBTN <= (~D2 & D3 &(counter == 0));
     end
 end
 
