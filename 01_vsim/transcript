@@ -1,631 +1,4 @@
 # Loading project DDS_project
-# Load canceled
-# Compile of oscillator_tb.v was successful.
-vsim work.oscillator_tb
-# vsim work.oscillator_tb 
-# Start time: 16:33:40 on Jun 21,2024
-# ** Error: (vsim-3170) Could not find 'oscillator_tb'.
-#         Searched libraries:
-#             /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/work
-# Error loading design
-# End time: 16:33:40 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 4
-# Compile of oscillator_tb.v was successful.
-vsim work.oscillator_tb
-# vsim work.oscillator_tb 
-# Start time: 16:34:58 on Jun 21,2024
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# Loading work.oscillator
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v Line: 29
-add wave -position insertpoint  \
-sim:/oscillator_tb/out1_o \
-sim:/oscillator_tb/out2_o
-run -all
-# Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v(75)
-#    Time: 9335475630 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v line 75
-add wave -position insertpoint  \
-sim:/oscillator_tb/Fg_CLK_i \
-sim:/oscillator_tb/RESETn_i \
-sim:/oscillator_tb/IntBTN_i \
-sim:/oscillator_tb/Ready_o \
-sim:/oscillator_tb/Enable_o \
-sim:/oscillator_tb/Mode_o
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:35:45 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 16:35:46 on Jun 21,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(75)
-#    Time: 9335475630 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 75
-# 0 ps
-# 9802249412 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:33 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 16:36:33 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(75)
-#    Time: 9335475630 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 75
-# 0 ps
-# 9802249412 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:40:26 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 16:40:26 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(75)
-#    Time: 8334824974 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 75
-# 0 ps
-# 8751566223 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:41:58 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 16:41:58 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(75)
-#    Time: 8418323638 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 75
-# 0 ps
-# 8839239820 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:45:32 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 16:45:32 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Enable'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(75)
-#    Time: 8418323638 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 75
-# 0 ps
-# 8839239820 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:45:52 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 16:45:52 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Enable'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(75)
-#    Time: 8334824974 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 75
-# 0 ps
-# 8751566223 ps
-add wave -position insertpoint sim:/oscillator_tb/osc_module/a
-add wave -position insertpoint sim:/oscillator_tb/osc_module/b
-add wave -position insertpoint sim:/oscillator_tb/osc_module/c
-add wave -position insertpoint sim:/oscillator_tb/osc_module/out
-add wave -position insertpoint sim:/oscillator_tb/osc_module/out1_a
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:52:36 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 16:52:36 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Enable'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(75)
-#    Time: 8334824974 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 75
-# 0 ps
-# 8751566223 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:54:57 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 16:54:58 on Jun 21,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(75)
-#    Time: 8418323638 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 75
-# 0 ps
-# 8839239820 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:56:28 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 16:56:28 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(75)
-#    Time: 8418323638 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 75
-# 0 ps
-# 8839239820 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:23:51 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 17:23:51 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(75)
-#    Time: 8334824974 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 75
-# 0 ps
-# 8751566223 ps
-add wave -position insertpoint sim:/oscillator_tb/osc_module/out1
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:30:02 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 17:30:02 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(75)
-#    Time: 8334824974 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 75
-# 0 ps
-# 8751566223 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:34:43 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 17:34:44 on Jun 21,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init1'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'init2'. The port definition is at: /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(75)
-#    Time: 8334824974 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 75
-# 0 ps
-# 8751566223 ps
-# Compile of oscillator.v failed with 2 errors.
-# Compile of oscillator_tb.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of oscillator.v was successful.
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:35:55 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 17:35:55 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# Loading work.oscillator
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(75)
-#    Time: 8334824974 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 75
-# 0 ps
-# 8751566223 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:42:18 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 17:42:19 on Jun 21,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(82)
-#    Time: 11835268966 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 82
-# 0 ps
-# 12427032414 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:45:05 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 17:45:05 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(91)
-#    Time: 13585574294 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 91
-# 0 ps
-# 14264853009 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:45:29 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 17:45:29 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(91)
-#    Time: 21085454294 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 91
-# 0 ps
-# 22139727009 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:45:46 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 17:45:46 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(91)
-#    Time: 29418654294 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 91
-# 0 ps
-# 30889587009 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:46:16 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 17:46:17 on Jun 21,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Closing VCD file "oscillator_tb.vcd"
-# Loading work.oscillator_tb
-# Loading work.sampling_control
-# Starting test
-# ** Note: $stop    : 01_testbench/oscillator_tb.v(91)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /oscillator_tb
-# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 91
-# 0 ps
-# 57139167009 ps
 # Compile of pll_module.v was successful.
 # Compile of pll_module_tb.v was successful.
 # Compile of clk_divider.v was successful.
@@ -637,402 +10,2348 @@ do 02_script/rerun.do
 # Compile of sampling_control.v was successful.
 # Compile of oscillator.v was successful.
 # Compile of oscillator_tb.v was successful.
-# Compile of interpolator.v failed with 3 errors.
+# Compile of interpolator.v was successful.
 # Compile of interpolator_tb.v was successful.
-# 13 compiles, 1 failed with 3 errors.
-# Compile of interpolator.v failed with 4 errors.
-# Compile of interpolator.v failed with 4 errors.
-# Compile of interpolator.v failed with 4 errors.
-# Compile of interpolator.v failed with 4 errors.
-# Compile of interpolator.v failed with 3 errors.
-# Compile of interpolator.v was successful.
-vsim work.interpolator_tb
-# End time: 19:23:18 on Jun 21,2024, Elapsed time: 2:48:20
-# Errors: 0, Warnings: 10
-# vsim work.interpolator_tb 
-# Start time: 19:23:18 on Jun 21,2024
-# Loading work.interpolator_tb
-# Loading work.sampling_control
-# Loading work.oscillator
-# Loading work.interpolator
+# Compile of rotary.v failed with 2 errors.
+# Compile of rotary_tb.v failed with 2 errors.
+# 15 compiles, 2 failed with 4 errors.
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v failed with 2 errors.
+# Compile of rotary_tb.v was successful.
+vsim work.rotary_tb
+# vsim work.rotary_tb 
+# Start time: 14:16:58 on Jun 22,2024
+# Loading work.rotary_tb
+# Loading work.rotary
 add wave -position insertpoint  \
-sim:/interpolator_tb/Fg_CLK_tb \
-sim:/interpolator_tb/RESETn_tb \
-sim:/interpolator_tb/IntBTN_i \
-sim:/interpolator_tb/Ready_o \
-sim:/interpolator_tb/Enable_o \
-sim:/interpolator_tb/Mode_o \
-sim:/interpolator_tb/out1_o \
-sim:/interpolator_tb/out2_o \
-sim:/interpolator_tb/interpOut_o
+sim:/rotary_tb/Fg_CLK_tb \
+sim:/rotary_tb/RESETn_tb \
+sim:/rotary_tb/Rot_A_i \
+sim:/rotary_tb/Rot_B_i \
+sim:/rotary_tb/Rot_C_i \
+sim:/rotary_tb/Adddress_o \
+sim:/rotary_tb/FreqChng_o
 do 02_script/rerun.do
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:28 on Jun 21,2024
+# Start time: 14:17:49 on Jun 22,2024
 # vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
 # -- Compiling module pll_module
 # -- Compiling module clk_divider
 # -- Compiling module sampling_control
+# -- Compiling module dds_top
+# ** Error: (vlog-13069) ../00_source/dds_top.v(4): near ".": syntax error, unexpected '.', expecting ')'.
+# ** Error: (vlog-13069) ../00_source/dds_top.v(11): near ")": syntax error, unexpected ')', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '*'.
+# -- Compiling module ResetGen_Module
+# -- Compiling module rotary
+# ** Warning: ../00_source/pll_module.v(10): (vlog-2275) Existing module 'pll_module' will be overwritten.
+# -- Compiling module pll_module
+# -- Compiling module interpolator
+# ** Warning: ../00_source/sampling_control.v(1): (vlog-2275) Existing module 'sampling_control' will be overwritten.
+# -- Compiling module sampling_control
+# ** Warning: ../00_source/clk_divider.v(1): (vlog-2275) Existing module 'clk_divider' will be overwritten.
+# -- Compiling module clk_divider
+# -- Compiling module button
+# -- Compiling module oscillator
 # -- Compiling module pll_module_tb
 # -- Compiling module clk_divider_tb
 # -- Compiling module sampling_control_tb
 # -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 19:23:28 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Loading work.sampling_control
+# ** Warning: 01_testbench/clk_divider_tb.v(3): (vlog-2275) Existing module 'clk_divider_tb' will be overwritten.
+# -- Compiling module clk_divider_tb
+# -- Compiling module rotary_tb
+# ** Warning: 01_testbench/pll_module_tb.v(3): (vlog-2275) Existing module 'pll_module_tb' will be overwritten.
+# -- Compiling module pll_module_tb
+# ** Warning: 01_testbench/oscillator_tb.v(3): (vlog-2275) Existing module 'oscillator_tb' will be overwritten.
+# -- Compiling module oscillator_tb
+# ** Warning: 01_testbench/sampling_control_tb.v(3): (vlog-2275) Existing module 'sampling_control_tb' will be overwritten.
+# -- Compiling module sampling_control_tb
+# ** Error: 01_testbench/dds_top_tb.v(1): (vlog-2163) Macro `timescal is undefined.
+# ** Error: (vlog-13069) 01_testbench/dds_top_tb.v(1): near "1": syntax error, unexpected INTEGER NUMBER, expecting class.
+# ** Error: (vlog-13069) 01_testbench/dds_top_tb.v(1): near "EOF": syntax error, unexpected end of source code.
+# ** Error: 01_testbench/dds_top_tb.v(1): (vlog-13205) Syntax error found in the scope following 'p'. Is there a missing '::'?
+# End time: 14:17:49 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 7
+# ** Error: /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./02_script/rerun.do line 2
+# /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -file ./00_filelist/src.f \
+#     -file ./00_filelist/tb.f"
+run -all
 # Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
-# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
-# 0 ps
-# 57139167009 ps
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/rotary_tb.v(46)
+#    Time: 62478167 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/rotary_tb.v line 46
 do 02_script/rerun.do
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:24:50 on Jun 21,2024
+# Start time: 14:19:33 on Jun 22,2024
 # vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
 # -- Compiling module pll_module
 # -- Compiling module clk_divider
 # -- Compiling module sampling_control
+# -- Compiling module rotary
 # -- Compiling module pll_module_tb
 # -- Compiling module clk_divider_tb
 # -- Compiling module sampling_control_tb
 # -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
 # 
 # Top level modules:
 # 	pll_module_tb
 # 	clk_divider_tb
 # 	sampling_control_tb
 # 	oscillator_tb
-# End time: 19:24:50 on Jun 21,2024, Elapsed time: 0:00:00
+# 	rotary_tb
+# End time: 14:19:33 on Jun 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# Closing VCD file "interpolator_tb.vcd"
-# Loading work.sampling_control
-# Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
-# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
-# 0 ps
-# 57139167009 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:31:52 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 19:31:52 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "interpolator_tb.vcd"
-# Loading work.sampling_control
-# Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
-# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
-# 0 ps
-# 57139167009 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:33:26 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 19:33:26 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "interpolator_tb.vcd"
-# Loading work.sampling_control
-# Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
-# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
-# 0 ps
-# 57139167009 ps
-add wave -position insertpoint  \
-sim:/interpolator_tb/interp_module/delta_y
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:33:54 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 19:33:54 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "interpolator_tb.vcd"
-# Loading work.sampling_control
-# Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
-# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
-# 0 ps
-# 57139167009 ps
-# Compile of interpolator.v was successful.
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:34:39 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 19:34:40 on Jun 21,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Closing VCD file "interpolator_tb.vcd"
+# Closing VCD file "rotary_tb.vcd"
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.sampling_control
-# Loading work.interpolator
+# Loading work.rotary_tb
+# Loading work.rotary
 # Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
-# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# ** Note: $stop    : 01_testbench/rotary_tb.v(46)
+#    Time: 62478167 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 46
 # 0 ps
-# 57139167009 ps
-add wave -position insertpoint sim:/interpolator_tb/interp_module/delta_y_buffer
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:38:04 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 19:38:04 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "interpolator_tb.vcd"
-# Loading work.sampling_control
-# Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
-# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
-# 0 ps
-# 57139167009 ps
-add wave -position insertpoint sim:/interpolator_tb/interp_module/interpOut_buffer
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:39:40 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 19:39:40 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "interpolator_tb.vcd"
-# Loading work.sampling_control
-# Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
-# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
-# 0 ps
-# 57139167009 ps
-do 02_script/rerun.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:41:11 on Jun 21,2024
-# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
-# -- Compiling module pll_module
-# -- Compiling module clk_divider
-# -- Compiling module sampling_control
-# -- Compiling module pll_module_tb
-# -- Compiling module clk_divider_tb
-# -- Compiling module sampling_control_tb
-# -- Compiling module oscillator_tb
-# 
-# Top level modules:
-# 	pll_module_tb
-# 	clk_divider_tb
-# 	sampling_control_tb
-# 	oscillator_tb
-# End time: 19:41:11 on Jun 21,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Closing VCD file "interpolator_tb.vcd"
-# Loading work.sampling_control
-# Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
-# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
-# 0 ps
-# 57139167009 ps
+# 65602075 ps
 add wave -position insertpoint  \
-sim:/interpolator_tb/interp_module/Enable_delay
+sim:/rotary_tb/rotary_module/count
 add wave -position insertpoint  \
-sim:/interpolator_tb/interp_module/Enable_delay
+sim:/rotary_tb/rotary_module/step_exp
+add wave -position insertpoint  \
+sim:/rotary_tb/rotary_module/state
+add wave -position insertpoint  \
+sim:/rotary_tb/rotary_module/A_pulse
+add wave -position insertpoint  \
+sim:/rotary_tb/rotary_module/B_pulse
+add wave -position insertpoint  \
+sim:/rotary_tb/rotary_module/counter_pulse
 do 02_script/rerun.do
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:43:40 on Jun 21,2024
+# Start time: 14:20:18 on Jun 22,2024
 # vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
 # -- Compiling module pll_module
 # -- Compiling module clk_divider
 # -- Compiling module sampling_control
+# -- Compiling module rotary
 # -- Compiling module pll_module_tb
 # -- Compiling module clk_divider_tb
 # -- Compiling module sampling_control_tb
 # -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
 # 
 # Top level modules:
 # 	pll_module_tb
 # 	clk_divider_tb
 # 	sampling_control_tb
 # 	oscillator_tb
-# End time: 19:43:40 on Jun 21,2024, Elapsed time: 0:00:00
+# 	rotary_tb
+# End time: 14:20:18 on Jun 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# Closing VCD file "interpolator_tb.vcd"
-# Loading work.sampling_control
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
 # Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
-# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# ** Note: $stop    : 01_testbench/rotary_tb.v(46)
+#    Time: 62478167 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 46
 # 0 ps
-# 57139167009 ps
-# Compile of interpolator.v was successful.
+# 65602075 ps
+add wave -position insertpoint  \
+sim:/rotary_tb/rotary_module/counter
 do 02_script/rerun.do
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:54:28 on Jun 21,2024
+# Start time: 14:22:14 on Jun 22,2024
 # vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
 # -- Compiling module pll_module
 # -- Compiling module clk_divider
 # -- Compiling module sampling_control
+# -- Compiling module rotary
 # -- Compiling module pll_module_tb
 # -- Compiling module clk_divider_tb
 # -- Compiling module sampling_control_tb
 # -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
 # 
 # Top level modules:
 # 	pll_module_tb
 # 	clk_divider_tb
 # 	sampling_control_tb
 # 	oscillator_tb
-# End time: 19:54:28 on Jun 21,2024, Elapsed time: 0:00:00
+# 	rotary_tb
+# End time: 14:22:15 on Jun 22,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# Closing VCD file "interpolator_tb.vcd"
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(46)
+#    Time: 62478167 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 46
+# 0 ps
+# 65602075 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:22:49 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:22:49 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(46)
+#    Time: 62478167 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 46
+# 0 ps
+# 65602075 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:23:51 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:23:51 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(46)
+#    Time: 62478167 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 46
+# 0 ps
+# 65602075 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:25:22 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:25:22 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(46)
+#    Time: 62478167 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 46
+# 0 ps
+# 65602075 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:28:13 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:28:13 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.sampling_control
-# Loading work.interpolator
+# Loading work.rotary_tb
+# Loading work.rotary
 # Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
-# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# ** Note: $stop    : 01_testbench/rotary_tb.v(46)
+#    Time: 62478167 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 46
 # 0 ps
-# 57139167009 ps
-add wave -position insertpoint sim:/interpolator_tb/interp_module/debug
+# 65602075 ps
 do 02_script/rerun.do
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:55:05 on Jun 21,2024
+# Start time: 14:36:27 on Jun 22,2024
 # vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
 # -- Compiling module pll_module
 # -- Compiling module clk_divider
 # -- Compiling module sampling_control
+# -- Compiling module rotary
 # -- Compiling module pll_module_tb
 # -- Compiling module clk_divider_tb
 # -- Compiling module sampling_control_tb
 # -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
 # 
 # Top level modules:
 # 	pll_module_tb
 # 	clk_divider_tb
 # 	sampling_control_tb
 # 	oscillator_tb
-# End time: 19:55:05 on Jun 21,2024, Elapsed time: 0:00:00
+# 	rotary_tb
+# End time: 14:36:28 on Jun 22,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# Closing VCD file "interpolator_tb.vcd"
-# Loading work.sampling_control
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
 # Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
-# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# ** Note: $stop    : 01_testbench/rotary_tb.v(46)
+#    Time: 62478167 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 46
 # 0 ps
-# 57139167009 ps
-# Compile of interpolator.v was successful.
+# 65602075 ps
 do 02_script/rerun.do
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:56:06 on Jun 21,2024
+# Start time: 14:37:27 on Jun 22,2024
 # vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
 # -- Compiling module pll_module
 # -- Compiling module clk_divider
 # -- Compiling module sampling_control
+# -- Compiling module rotary
 # -- Compiling module pll_module_tb
 # -- Compiling module clk_divider_tb
 # -- Compiling module sampling_control_tb
 # -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
 # 
 # Top level modules:
 # 	pll_module_tb
 # 	clk_divider_tb
 # 	sampling_control_tb
 # 	oscillator_tb
-# End time: 19:56:06 on Jun 21,2024, Elapsed time: 0:00:00
+# 	rotary_tb
+# End time: 14:37:27 on Jun 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# Closing VCD file "interpolator_tb.vcd"
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(58)
+#    Time: 99977567 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 58
+# 0 ps
+# 104976445 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:37:37 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:37:37 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.sampling_control
-# Loading work.interpolator
+# Loading work.rotary_tb
+# Loading work.rotary
 # Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v(103)
-#    Time: 54418254294 ps  Iteration: 1  Instance: /interpolator_tb
-# Break in Module interpolator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v line 103
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(58)
+#    Time: 99977567 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 58
 # 0 ps
-# 57139167009 ps
-# Compile of interpolator.v was successful.
-# End time: 20:05:45 on Jun 21,2024, Elapsed time: 0:42:27
-# Errors: 0, Warnings: 2
+# 104976445 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:40:04 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:40:04 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(73)
+#    Time: 187476167 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 73
+# 0 ps
+# 196849975 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:44:39 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:44:39 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(73)
+#    Time: 187476167 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 73
+# 0 ps
+# 196849975 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:48:49 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:48:49 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(95)
+#    Time: 210392467 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 95
+# 0 ps
+# 220912090 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:49:57 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:49:57 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(95)
+#    Time: 208517497 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 95
+# 0 ps
+# 218943372 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:51:11 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:51:11 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(95)
+#    Time: 208517497 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 95
+# 0 ps
+# 218943372 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:51:22 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:51:23 on Jun 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(95)
+#    Time: 208517497 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 95
+# 0 ps
+# 218943372 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:52:29 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:52:29 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(95)
+#    Time: 208517497 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 95
+# 0 ps
+# 218943372 ps
+# Compile of rotary.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:52:41 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:52:41 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(95)
+#    Time: 208517497 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 95
+# 0 ps
+# 218943372 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:53:04 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:53:05 on Jun 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(95)
+#    Time: 208517497 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 95
+# 0 ps
+# 218943372 ps
+# Compile of rotary.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:53:15 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:53:15 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(95)
+#    Time: 208517497 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 95
+# 0 ps
+# 218943372 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:54:14 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:54:14 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(95)
+#    Time: 208517497 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 95
+# 0 ps
+# 218943372 ps
+# Compile of rotary.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:55:33 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:55:33 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(95)
+#    Time: 208517497 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 95
+# 0 ps
+# 218943372 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:01 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:56:01 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(95)
+#    Time: 208517497 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 95
+# 0 ps
+# 218943372 ps
+# Compile of rotary.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:11 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:56:11 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(95)
+#    Time: 208517497 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 95
+# 0 ps
+# 218943372 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:57:47 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:57:47 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(95)
+#    Time: 208517497 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 95
+# 0 ps
+# 218943372 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:59:50 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:59:50 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(107)
+#    Time: 266849897 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 107
+# 0 ps
+# 280192392 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:01:33 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:01:33 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(124)
+#    Time: 287766229 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 124
+# 0 ps
+# 302154540 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:57 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:02:57 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(140)
+#    Time: 308640895 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 140
+# 0 ps
+# 324072940 ps
+# Compile of rotary.v failed with 1 errors.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:27 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:07:28 on Jun 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(140)
+#    Time: 308640895 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 140
+# 0 ps
+# 324072940 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:10:13 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:10:13 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(140)
+#    Time: 308640895 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 140
+# 0 ps
+# 324072940 ps
+add dataflow \
+sim:/rotary_tb/rotary_module/count 
+# WARNING: No extended dataflow license exists
+add dataflow /rotary_tb/rotary_module/A_pulse /rotary_tb/rotary_module/step_exp /rotary_tb/rotary_module/B_pulse /rotary_tb/rotary_module/RESETn /rotary_tb/rotary_module/Fg_CLK /rotary_tb/rotary_module/count /rotary_tb/rotary_module/state
+add list \
+sim:/rotary_tb/rotary_module/count 
+add watch \
+sim:/rotary_tb/rotary_module/count 
+add dataflow \
+sim:/rotary_tb/rotary_module/count 
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+add dataflow \
+sim:/rotary_tb/rotary_module/count
+add dataflow \
+sim:/rotary_tb/rotary_module/count
+# WARNING: No extended dataflow license exists
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:13:06 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:13:06 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(140)
+#    Time: 308640895 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 140
+# 0 ps
+# 324072940 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:17:48 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# ** Error: 01_testbench/rotary_tb.v(130): (vlog-2730) Undefined variable: 'Fg_CLK'.
+# End time: 15:17:48 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./02_script/rerun.do line 2
+# /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -file ./00_filelist/src.f \
+#     -file ./00_filelist/tb.f"
+# Compile of rotary_tb.v failed with 1 errors.
+# Compile of rotary_tb.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:18:15 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:18:15 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(140)
+#    Time: 309057555 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 140
+# 0 ps
+# 324510433 ps
+# Compile of rotary.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:21:22 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:21:22 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(140)
+#    Time: 309057555 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 140
+# 0 ps
+# 324510433 ps
+# Compile of rotary.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:22:10 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:22:10 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(140)
+#    Time: 309057555 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 140
+# 0 ps
+# 324510433 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:23:32 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:23:32 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(152)
+#    Time: 325723955 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 152
+# 0 ps
+# 342010153 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:24:36 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:24:36 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(152)
+#    Time: 325723955 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 152
+# 0 ps
+# 342010153 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:26:34 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:26:34 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(152)
+#    Time: 325723955 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 152
+# 0 ps
+# 342010153 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:50 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:28:50 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(152)
+#    Time: 325723955 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 152
+# 0 ps
+# 342010153 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:32:55 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:32:55 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(152)
+#    Time: 325723955 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 152
+# 0 ps
+# 342010153 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:35:22 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:35:22 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(251)
+#    Time: 451138615 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 251
+# 0 ps
+# 473695546 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:39:31 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:39:31 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(349)
+#    Time: 618052611 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 349
+# 0 ps
+# 648955242 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:40:27 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:40:27 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(452)
+#    Time: 830590877 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 452
+# 0 ps
+# 872120421 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:41:14 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:41:14 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(457)
+#    Time: 834799143 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 457
+# 0 ps
+# 876539100 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:42:29 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:42:29 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(458)
+#    Time: 1022296143 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 458
+# 0 ps
+# 1073410950 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:42:49 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:42:49 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(458)
+#    Time: 1126461143 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 458
+# 0 ps
+# 1182784200 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:42:54 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:42:54 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(458)
+#    Time: 1126461143 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 458
+# 0 ps
+# 1182784200 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:43:39 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:43:39 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (11) for port 'Address'. The port definition is at: ../00_source/rotary.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /rotary_tb/rotary_module File: 01_testbench/rotary_tb.v Line: 17
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(458)
+#    Time: 1126461143 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 458
+# 0 ps
+# 1182784200 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:43:49 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:43:49 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (11) for port 'Address'. The port definition is at: ../00_source/rotary.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /rotary_tb/rotary_module File: 01_testbench/rotary_tb.v Line: 17
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(458)
+#    Time: 1126461143 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 458
+# 0 ps
+# 1182784200 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:44:16 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:44:17 on Jun 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(458)
+#    Time: 1126461143 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 458
+# 0 ps
+# 1182784200 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:04 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:45:04 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(379)
+#    Time: 1168127143 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 379
+# 0 ps
+# 1226533500 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:46:09 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:46:09 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(394)
+#    Time: 1418539803 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 394
+# 0 ps
+# 1489466793 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:46:45 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:46:45 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(394)
+#    Time: 1418539803 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 394
+# 0 ps
+# 1489466793 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:47:18 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:47:18 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(394)
+#    Time: 1418539803 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 394
+# 0 ps
+# 1489466793 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:50:15 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:50:15 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(399)
+#    Time: 1797700403 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 399
+# 0 ps
+# 1887585423 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:51:05 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:51:05 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(399)
+#    Time: 1356999121 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 399
+# 0 ps
+# 1424849077 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:53:35 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:53:35 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(399)
+#    Time: 1356999121 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 399
+# 0 ps
+# 1424849077 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:56:26 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:56:27 on Jun 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(399)
+#    Time: 1356999121 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 399
+# 0 ps
+# 1424849077 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:57:38 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 15:57:38 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(399)
+#    Time: 1356999121 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 399
+# 0 ps
+# 1424849077 ps
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:00:45 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 16:00:45 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(415)
+#    Time: 2742060293 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 415
+# 0 ps
+# 2879163308 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:00:52 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 16:00:52 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(415)
+#    Time: 2742060293 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 415
+# ** Error: could not find wave window
+# Error in macro ./02_script/rerun.do line 8
+# could not find wave window
+#     while executing
+# "wave::zoomfull {*}$args"
+#     (procedure "::wave::zoom::full" line 2)
+#     invoked from within
+# "wave zoom full"
+add wave -position insertpoint  \
+sim:/rotary_tb/Fg_CLK_tb \
+sim:/rotary_tb/RESETn_tb \
+sim:/rotary_tb/Rot_A_i \
+sim:/rotary_tb/Rot_B_i \
+sim:/rotary_tb/Rot_C_i \
+sim:/rotary_tb/Adddress_o \
+sim:/rotary_tb/FreqChng_o
+run -all
+run -all
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:02:06 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 16:02:06 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(415)
+#    Time: 2742060293 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 415
+# 0 ps
+# 2879163308 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:04:03 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# ** Error: (vlog-13069) 01_testbench/rotary_tb.v(437): near "repeat": syntax error, unexpected repeat.
+# ** Error: 01_testbench/rotary_tb.v(437): (vlog-13161) unexpected '$stop'
+# ** Error: (vlog-13069) 01_testbench/rotary_tb.v(439): near "end": syntax error, unexpected end.
+# ** Error: 01_testbench/rotary_tb.v(444): (vlog-13161) unexpected '$dumpvars'
+# ** Error: 01_testbench/rotary_tb.v(444): (vlog-2730) Undefined variable: 'rotary_tb'.
+# ** Error: (vlog-13069) 01_testbench/rotary_tb.v(445): near "end": syntax error, unexpected end.
+# End time: 16:04:03 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./02_script/rerun.do line 2
+# /home/pol/Program/altera/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -file ./00_filelist/src.f \
+#     -file ./00_filelist/tb.f"
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of rotary.v was successful.
+# Compile of rotary_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:04:49 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 16:04:49 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(437)
+#    Time: 3347133945 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 437
+# 0 ps
+# 3514490642 ps
+# Compile of rotary.v failed with 1 errors.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:09:57 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 16:09:57 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(437)
+#    Time: 3347133945 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 437
+# 0 ps
+# 3514490642 ps
+# Compile of rotary.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:10:03 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 16:10:03 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(437)
+#    Time: 3347133945 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 437
+# 0 ps
+# 3514490642 ps
+# Compile of rotary.v was successful.
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:55 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 16:13:55 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(437)
+#    Time: 3347133945 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 437
+# 0 ps
+# 3514490642 ps
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:15:03 on Jun 22,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 16:15:03 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "rotary_tb.vcd"
+# Loading work.rotary_tb
+# Loading work.rotary
+# Starting test
+# ** Note: $stop    : 01_testbench/rotary_tb.v(437)
+#    Time: 3347133945 ps  Iteration: 1  Instance: /rotary_tb
+# Break in Module rotary_tb at 01_testbench/rotary_tb.v line 437
+# 0 ps
+# 3514490642 ps
+add wave -position insertpoint  \
+sim:/rotary_tb/rotary_module/count
