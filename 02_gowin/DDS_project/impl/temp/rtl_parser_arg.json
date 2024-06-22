@@ -4,6 +4,10 @@
   {
    "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_rpll/pll_module.v",
    "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/coef_prom.v",
+   "Type" : "verilog"
   }
  ],
  "IncludePath" : [

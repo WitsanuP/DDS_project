@@ -6,5 +6,13 @@
   "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_rpll/pll_module.v",
   "ModuleLine" : 10,
   "ModuleName" : "pll_module"
+ },
+ {
+  "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/coef_prom.v",
+  "InstLine" : 10,
+  "InstName" : "coef_prom",
+  "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/coef_prom.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "coef_prom"
  }
 ]
