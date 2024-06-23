@@ -8,7 +8,6 @@
 //Created Time: Mon Jun 17 21:03:35 2024
 
 module pll_module (clkout, lock, reset, clkin);
-
 output clkout;
 output lock;
 input reset;

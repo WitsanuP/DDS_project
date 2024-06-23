@@ -11,8 +11,8 @@ module coef_prom (dout, clk, oce, ce, reset, ad);
 
 output [47:0] dout;
 input clk;
-input oce;
-input ce;
+input oce;//Output Clock Enable
+input ce; //chip enable
 input reset;
 input [10:0] ad;
 

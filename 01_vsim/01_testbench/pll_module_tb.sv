@@ -1,7 +1,7 @@
 `timescale 1ps/1ps
 
 module pll_module_tb();
-
+    
     // ----------- registers -----------
     reg reset_i =0;
     reg clkin_i =0; 

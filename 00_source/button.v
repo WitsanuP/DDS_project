@@ -10,8 +10,9 @@ module button(Fg_CLK,RESETn,ExtBTN,IntBTN);
     reg [25:0] counter;
     reg enable_counter;
 
-
-    parameter [25:0] time_counter_limit = 300 ; //for test
+    `ifdef TEST_MODE parameter [25:0] time_counter_limit = 300 ; //for test
+    `else            parameter [25:0] time_counter_limit = 7200000;// 100ms;
+    `endif
     // parameter [25:0] time_counter_limit =  2_400_000 ; //for 100 ms
     // parameter [25:0] time_counter_limit = 24_000_000 ; //for 1 sec
     

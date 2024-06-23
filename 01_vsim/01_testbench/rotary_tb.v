@@ -10,7 +10,7 @@ module rotary_tb();
     reg Rot_C_i = 0;
     
     // ----------- wires -----------
-    wire [11:0] Adddress_o;
+    wire [10:0] Adddress_o;
     wire FreqChng_o;
 
     // ----------- device under test -----------

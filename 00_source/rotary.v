@@ -5,7 +5,7 @@ module rotary(Fg_CLK, RESETn, Rot_A, Rot_B, Rot_C, Address, FreqChng);
     input Rot_B;
     input Rot_C;
 
-    output reg [11:0] Address; // 0-1800
+    output reg [10:0] Address; // 0-1800
     output reg FreqChng;
 
     reg [11:0] count; // 0-1800 [10:0]can over flow, 0-100 =-99 
@@ -22,8 +22,9 @@ module rotary(Fg_CLK, RESETn, Rot_A, Rot_B, Rot_C, Address, FreqChng);
     reg B_pulse;
     reg [21:0] counter;
     reg counter_pulse;
-    // parameter counter_100ms = 2400000;// 100ms
-    parameter counter_100ms = 3000;// for test
+    `ifdef TEST_MODE parameter counter_100ms = 3000;// for test
+    `else            parameter counter_100ms = 2400000;// 100ms
+    `endif 
 
     //syn Rot_A (A1, A2) and make pulse from falling edge(A3)
     always @(negedge Fg_CLK or RESETn) begin
@@ -121,13 +122,13 @@ module rotary(Fg_CLK, RESETn, Rot_A, Rot_B, Rot_C, Address, FreqChng);
     // output Address every 100 ms
     always @(posedge Fg_CLK or negedge RESETn) begin
         if      (~RESETn)       Address <= 0; 
-        else if (counter_pulse) Address <= count;
+        else if (counter_pulse) Address <= count[10:0];
     end
 
     // if output Adddress have change ,then this block generate pulse
     always @(posedge Fg_CLK or negedge RESETn) begin
         if(~RESETn)                                     FreqChng <= 0;
-        else if ((Address != count) & counter_pulse )   FreqChng <= 1;
+        else if ((Address != count[10:0]) & counter_pulse )   FreqChng <= 1;
         else                                            FreqChng <= 0;
     end
 endmodule

@@ -1,5 +1,6 @@
 vlog -file ./00_filelist/src.f \
-    -file ./00_filelist/tb.f
+    -file ./00_filelist/tb.f \
+    +define+INCLUDE_RSTN0
 
 vsim work.pll_module_tb -L gowin
 

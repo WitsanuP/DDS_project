@@ -1,91 +1,132 @@
-module dds_top();
-    ResetGen_Module resetgen_module(
-    input   wire    CLK,
+module dds_top(
+    input wire input_clk_27M,
+    input wire input_RESET_gen,
 
-    input   wire    ExtRESETn,
-    
-    input   wire    PllLocked,
-    output  wire    PllRESETn,
+    input wire input_BTN_mode,
+    input wire input_Rot_A,
+    input wire input_Rot_B,
+    input wire input_BTN_step,
 
-    output  wire    FgRESETn
+    output output_Dac_CLK,
+    output output_interp_unsigned
 );
-    pll_module pll_module(
-    	.clkin(Ext_clk_27) //input clkin
-        .reset(reset_i), //input reset
+    
+    wire clk_48M;
+    wire fg_clk;
+    wire lock;
+    wire pll_reset;
+    wire reset_n;
 
-        .clkout(clkout_o), //output clkout
-        .lock(lock_o), //output lock
+    ResetGen_Module RESETGEN_module(
+        .CLK(input_clk_27M),
+        .ExtRESETn(input_RESET_gen),
+        .PllLocked(lock),
+
+        .PllRESETn(pll_reset),
+        .FgRESETn(reset_n)
     );
 
-    clk_divider clk_div_module(
-        .PLL_CLK(PLL_CLK_tb),
-        .RESETn(RESETn_tb),
-
-        .Fg_CLK(Fg_CLK_tb),
-        .Dac_CLK(Dac_CLK_tb)
-    );
-
-    button button_module(
-        .Fg_CLK(Fg_CLK_i),
-        .RESETn(RESETn_i),
-        .ExtBTN(ExtBTN_i),
-
-        .IntBTN(IntBTN_o)
-    );
-
-    sampling_control samp_module(
-        .Fg_CLK(Fg_CLK_i),
-        .RESETn(RESETn_i),
-        .IntBTN(IntBTN_i),
-
-        .Ready(Ready_o),
-        .Enable(Enable_o),
-        .Mode(Mode_o)
-    );
-
-    button button_rot_C_module(
-        .Fg_CLK(Fg_CLK_i),
-        .RESETn(RESETn_i),
-
-        .ExtBTN(ExtBTN_i),
-        .IntBTN(IntBTN_o)
-    );
-
-    rotary rotary_module (
-        .Fg_CLK (Fg_CLK_tb), 
-        .RESETn (RESETn_tb), 
-        .Rot_A  (Rot_A_i), 
-        .Rot_B  (Rot_B_i), 
-        .Rot_C  (Rot_C_i), 
+    pll_module PLL_module(
+        .clkout(clk_48M), //output clkout
+        .lock(lock), //output lock
         
-        .Address    (Adddress_o), 
-        .FreqChng   (FreqChng_o)
+        .reset(~pll_reset), //input reset
+        .clkin(input_clk_27M) //input clkin
     );
 
+    clk_divider CLK_DIV_module(
+        .PLL_CLK(clk_48M),
+        .RESETn(~reset_n),
 
+        .Fg_CLK(fg_clk),
+        .Dac_CLK(output_Dac_CLK)
+    );
 
-        oscillator osc_module(
-        .Fg_CLK(Fg_CLK_tb),
-        .RESETn(RESETn_tb), 
-        .Enable(Enable_o), 
-        .Ready(Ready_o), 
-        .init1(32'd96_878_045), 
-        .init2(32'd1_054_193_702),
+    //////////////////////////
+    //  second part module  //
+    //////////////////////////
+    wire wire_rot_c;
+    wire [10:0] wire_address;
+    wire wire_btn_simp;
+    wire wire_ready;
+    wire wire_enable;
+    wire [3:0] wire_mode;
+    wire wire_feqchange;
+    wire [31:0] wire_cos2x;
+    wire [31:0] wire_sin1x;
+    wire [31:0] wire_out1;
+    wire [31:0] wire_out2;
 
-        .out1(out1_o), 
-        .out2(out2_o)
+    button MODE_BTN_module(
+        .Fg_CLK(fg_clk),
+        .RESETn(reset_n),
+        .ExtBTN(input_BTN_mode),
+
+        .IntBTN(wire_btn_simp)
+    );
+
+    sampling_control SAMP_module(
+        .Fg_CLK(fg_clk),
+        .RESETn(reset_n),
+        .IntBTN(wire_btn_simp),
+
+        .Ready(wire_ready),
+        .Enable(wire_enable),
+        .Mode(wire_mode)
+    );
+
+    button STEP_BTN_module(
+        .Fg_CLK(fg_clk),
+        .RESETn(reset_n),
+        .ExtBTN(input_BTN_step),
+
+        .IntBTN(wire_rot_c)
+    );
+
+    rotary ROTARY_module (
+        .Fg_CLK (fg_clk), 
+        .RESETn (reset_n), 
+        .Rot_B  (input_Rot_A), 
+        .Rot_A  (input_Rot_B), 
+        .Rot_C  (wire_rot_c), 
+        
+        .Address    (wire_address),
+        .FreqChng   (wire_feqchange)
+    );
+
+    lookup_table lookup_module(
+        .Fg_CLK(fg_clk), 
+        .RESETn(reset_n), 
+        .Address(wire_address), 
+        .out1(), 
+        .out2(), 
+
+        .sin1x(wire_sin1x), 
+        .cos2x(wire_cos2x)
+    );
+
+    oscillator OSC_module(
+        .Fg_CLK(fg_clk),
+        .RESETn(reset_n), 
+        .Enable(wire_enable), 
+        .Ready(wire_ready), 
+        .init1(wire_sin1x), 
+        .init2(wire_cos2x),
+        .Mode(wire_mode),
+        .freqchange(wire_feqchange),
+
+        .out1(wire_out1), 
+        .out2(wire_out2)
     );
     
-    interpolator interp_module(
-        .Fg_CLK(Fg_CLK_tb), 
-        .RESETn(RESETn_tb), 
-        .out1(out1_o), 
-        .out2(out2_o), 
-        .Mode(Mode_o), 
-        .Enable(Enable_o), 
+    interpolator INTERPOLATOR_module(
+        .Fg_CLK(fg_clk), 
+        .RESETn(reset_n), 
+        .out1(wire_out1), 
+        .out2(wire_out2), 
+        .Mode(wire_mode), 
+        .Enable(wire_enable), 
 
-        .interpOut(interpOut_o)
+        .osc_out(output_interp_unsigned)
     );
-
-
 endmodule
