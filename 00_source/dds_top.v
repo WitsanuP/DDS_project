@@ -8,7 +8,7 @@ module dds_top(
     input wire input_BTN_step,
 
     output output_Dac_CLK,
-    output output_interp_unsigned
+    output [11:0]output_interp_unsigned
 );
     
     wire clk_48M;
@@ -17,6 +17,8 @@ module dds_top(
     wire pll_reset;
     wire reset_n;
 
+
+    
     ResetGen_Module RESETGEN_module(
         .CLK(input_clk_27M),
         .ExtRESETn(input_RESET_gen),
@@ -24,6 +26,7 @@ module dds_top(
 
         .PllRESETn(pll_reset),
         .FgRESETn(reset_n)
+    
     );
 
     pll_module PLL_module(
@@ -36,7 +39,7 @@ module dds_top(
 
     clk_divider CLK_DIV_module(
         .PLL_CLK(clk_48M),
-        .RESETn(~reset_n),
+        .RESETn(reset_n),
 
         .Fg_CLK(fg_clk),
         .Dac_CLK(output_Dac_CLK)

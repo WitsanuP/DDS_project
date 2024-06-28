@@ -4,15 +4,73 @@ module dds_top_tb();
 
     // ----------- registers -----------
     reg clk_tb = 0;
-    reg reset_gen_tb = 0;
-    reg [3:0]mode_tb = 0;
+    reg reset_gen_tb = 1;
+    reg mode_tb = 1;
     reg rota_tb = 1;
     reg rotb_tb = 1;
-    reg step_tb = 0;
+    reg step_tb = 1;
     
     // ----------- wires -----------
     wire dac_clk_tb;
     wire [11:0]output_tb;
+    // ----------- task 
+    task reset_BTN();
+        begin
+            repeat(1)@(posedge clk_tb);
+            reset_gen_tb <= 0;
+            repeat(5)@(posedge clk_tb);
+            reset_gen_tb <= 1;
+            repeat(1)@(posedge clk_tb);
+        end
+    endtask
+
+    task mode_BTN();
+        begin
+            repeat(1)@(posedge clk_tb);
+            mode_tb <= 0;
+            repeat(5)@(posedge clk_tb);
+            mode_tb <= 1;
+            repeat(1)@(posedge clk_tb);
+        end
+    endtask 
+
+    task step_BTN();
+        begin
+            repeat(1)@(posedge clk_tb);
+            step_tb <= 0;
+            repeat(5)@(posedge clk_tb);
+            step_tb <= 1;
+            repeat(1)@(posedge clk_tb);
+        end
+    endtask 
+
+    task cw_task();
+        begin 
+            repeat(1)@(posedge clk_tb);
+            rota_tb <= 0;
+            repeat(2)@(posedge clk_tb);
+            rotb_tb <= 0;
+            repeat(2)@(posedge clk_tb);
+            rota_tb <= 1;
+            repeat(2)@(posedge clk_tb);
+            rotb_tb <= 1;
+            repeat(1)@(posedge clk_tb);
+        end
+    endtask
+
+    task ccw_task();
+        begin 
+            repeat(1)@(posedge clk_tb);
+            rotb_tb <= 0;
+            repeat(2)@(posedge clk_tb);
+            rota_tb <= 0;
+            repeat(2)@(posedge clk_tb);
+            rotb_tb <= 1;
+            repeat(2)@(posedge clk_tb);
+            rota_tb <= 1;
+            repeat(1)@(posedge clk_tb);
+        end
+    endtask
     // ----------- device under test -----------
     dds_top dut(
         .input_clk_27M(clk_tb),
@@ -33,19 +91,12 @@ module dds_top_tb();
     // ----------- test scenarios -----------
     initial begin
         $display("Starting test");
+        repeat(100)@(posedge clk_tb);
+        reset_BTN();
+        mode_BTN();
 
-        repeat(100)@(posedge clk_tb);
-        reset_gen_tb <=1; 
-        repeat(100)@(posedge clk_tb);
-        reset_gen_tb <= 0;
-        repeat(100)@(posedge clk_tb);
-        mode_tb <= 2;
         
-        repeat(10)@(posedge clk_tb);
-        step_tb <= step_tb+ 2;
-
-        repeat(100)@(posedge clk_tb);
-        repeat(1000)@(posedge clk_tb);
+        repeat(5000)@(posedge clk_tb);
         $stop;
     end
 
