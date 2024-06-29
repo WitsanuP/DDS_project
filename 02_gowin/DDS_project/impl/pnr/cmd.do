@@ -1,6 +1,7 @@
 -d /home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/impl/gwsynthesis/DDS_project.vg
 -p GW1NR-9C-QFN88P-6
 -pn GW1NR-LV9QN88PC6/I5
+-cst /home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/DDS_project.cst
 -cfg /home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/impl/pnr/device.cfg
 -bit
 -tr

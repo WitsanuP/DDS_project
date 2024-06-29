@@ -7,6 +7,7 @@
     <FileList>
         <File path="src/gowin_prom/coef_prom.v" type="file.verilog" enable="1"/>
         <File path="src/gowin_prom/gowin_prom.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/romcoefv2.v" type="file.verilog" enable="1"/>
         <File path="src/gowin_rpll/pll_module.v" type="file.verilog" enable="1"/>
         <File path="src/DDS_project.cst" type="file.cst" enable="1"/>
     </FileList>

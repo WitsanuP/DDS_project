@@ -1,0 +1,15 @@
+[General]
+ipc_version=4
+file=romcoefv2
+module=romcoefv2
+target_device=gw1nr9c-004
+type=ram_prom
+version=1.0
+
+[Config]
+DEPTH=2048
+LANG=0
+MEM_FILE=/home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/cofficient_file/coefficient2.mi
+READ=0
+RESET_MODE=false
+WIDTH=48

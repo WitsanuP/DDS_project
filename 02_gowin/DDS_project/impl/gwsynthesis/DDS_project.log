@@ -1,5 +1,7 @@
 GowinSynthesis start
 Running parser ...
+Analyzing Verilog file '/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/coef_prom.v'
+Analyzing Verilog file '/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/gowin_prom.v'
 Analyzing Verilog file '/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_rpll/pll_module.v'
 Compiling module 'pll_module'("/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_rpll/pll_module.v":10)
 NOTE  (EX0101) : Current top module is "pll_module"

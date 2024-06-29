@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 d/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim
 vbutton
-Z1 !s110 1719564266
+Z1 !s110 1719666723
 !i10b 1
 !s100 ImYoo:0jLPl>ZdlMXW7ER0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,21 +20,21 @@ R0
 w1719148332
 8../00_source/button.v
 F../00_source/button.v
-!i122 664
+!i122 750
 L0 1 58
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1719564266.000000
-!s107 01_testbench/dds_top_tb.sv|../00_source/fillter_mode4.v|../00_source/oscillator.v|../00_source/button.v|../00_source/coef_prom.v|../00_source/clk_divider.v|../00_source/sampling_control.v|../00_source/interpolator.v|../00_source/pll_module.v|../00_source/rotary.v|../00_source/ResetGen_Module.v|../00_source/dds_top.v|../00_source/lookup_table.v|
-Z6 !s90 -reportprogress|300|-file|./00_filelist/src_dds.f|-file|./00_filelist/tb_dds.f|+define+TEST_MODE|
+Z5 !s108 1719666723.000000
+Z6 !s107 01_testbench/dds_top_tb.sv|../00_source/fillter_mode4.v|../00_source/oscillator.v|../00_source/button.v|../00_source/coef_prom.v|../00_source/clk_divider.v|../00_source/sampling_control.v|../00_source/interpolator.v|../00_source/pll_module.v|../00_source/rotary.v|../00_source/ResetGen_Module.v|../00_source/romcoefv2.v|../00_source/dds_top.v|../00_source/lookup_table.v|
+Z7 !s90 -reportprogress|300|-file|./00_filelist/src_dds.f|-file|./00_filelist/tb_dds.f|+define+TEST_MODE|
 !i113 1
-Z7 !s92 +define+TEST_MODE
-Z8 tCvgOpt 0
+Z8 !s92 +define+TEST_MODE
+Z9 tCvgOpt 0
 vbutton_tb
-Z9 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1719559478
+Z10 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1719662167
 !i10b 1
 !s100 Sd<lGIi@KDBl=HVXGPa:a0
 R2
@@ -43,45 +43,44 @@ R3
 S1
 R0
 w1718876039
-Z10 8/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv
-Z11 F/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv
-!i122 607
+Z11 8/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv
+Z12 F/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv
+!i122 683
 L0 3 70
 R4
 r1
 !s85 0
 31
-!s108 1719559478.000000
-Z12 !s107 /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv|
-Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv|
+!s108 1719662167.000000
+Z13 !s107 /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv|
+Z14 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv|
 !i113 1
-Z14 o-work work -sv
-R8
+Z15 o-work work -sv
+R9
 vclk_divider
-R1
+Z16 !s110 1719667063
 !i10b 1
 !s100 >e:UNUR4Un7nbHiV<ab`j0
 R2
-ICb6NL]6z0ak=dVi3JL`LX0
+I9TeXoMZj[dl:UTRS`<V4l3
 R3
 R0
 w1718966970
 8../00_source/clk_divider.v
 F../00_source/clk_divider.v
-!i122 664
+!i122 753
 L0 1 21
 R4
 r1
 !s85 0
 31
-R5
-Z15 !s107 01_testbench/dds_top_tb.sv|../00_source/fillter_mode4.v|../00_source/oscillator.v|../00_source/button.v|../00_source/coef_prom.v|../00_source/clk_divider.v|../00_source/sampling_control.v|../00_source/interpolator.v|../00_source/pll_module.v|../00_source/rotary.v|../00_source/ResetGen_Module.v|../00_source/dds_top.v|../00_source/lookup_table.v|
-R6
+Z17 !s108 1719667062.000000
+!s107 01_testbench/rotary_tb.v|01_testbench/oscillator_tb.v|01_testbench/sampling_control_tb.v|01_testbench/clk_divider_tb.v|01_testbench/pll_module_tb.sv|../00_source/rotary.v|../00_source/sampling_control.v|../00_source/clk_divider.v|../00_source/pll_module.v|
+Z18 !s90 -reportprogress|300|-file|./00_filelist/src.f|-file|./00_filelist/tb.f|
 !i113 1
-R7
-R8
+R9
 vclk_divider_tb
-Z16 !s110 1719563583
+R16
 !i10b 1
 !s100 3dM5UhEG3KJle]7X:=n6m3
 R2
@@ -91,17 +90,17 @@ R0
 w1719037439
 801_testbench/clk_divider_tb.v
 F01_testbench/clk_divider_tb.v
-!i122 654
+!i122 753
 L0 3 40
 R4
 r1
 !s85 0
 31
-Z17 !s108 1719563583.000000
-Z18 !s107 01_testbench/rotary_tb.v|01_testbench/oscillator_tb.v|01_testbench/sampling_control_tb.v|01_testbench/clk_divider_tb.v|01_testbench/pll_module_tb.sv|../00_source/rotary.v|../00_source/sampling_control.v|../00_source/clk_divider.v|../00_source/pll_module.v|
-Z19 !s90 -reportprogress|300|-file|./00_filelist/src.f|-file|./00_filelist/tb.f|
+R17
+Z19 !s107 01_testbench/rotary_tb.v|01_testbench/oscillator_tb.v|01_testbench/sampling_control_tb.v|01_testbench/clk_divider_tb.v|01_testbench/pll_module_tb.sv|../00_source/rotary.v|../00_source/sampling_control.v|../00_source/clk_divider.v|../00_source/pll_module.v|
+R18
 !i113 1
-R8
+R9
 vcoef_prom
 R1
 !i10b 1
@@ -113,20 +112,20 @@ R0
 w1719145642
 8../00_source/coef_prom.v
 F../00_source/coef_prom.v
-!i122 664
-L0 10 482
+!i122 750
+Z20 L0 10 482
 R4
 r1
 !s85 0
 31
 R5
-R15
 R6
-!i113 1
 R7
+!i113 1
 R8
+R9
 vcoef_prom_tb
-Z20 !s110 1719559479
+Z21 !s110 1719662168
 !i10b 1
 !s100 5fV9in<cUn<T;o2S?1=SA2
 R2
@@ -136,18 +135,18 @@ R0
 w1719140538
 8/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/coef_prom_tb.v
 F/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/coef_prom_tb.v
-!i122 620
+!i122 696
 L0 3 57
 R4
 r1
 !s85 0
 31
-Z21 !s108 1719559479.000000
+Z22 !s108 1719662168.000000
 !s107 /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/coef_prom_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/coef_prom_tb.v|
 !i113 1
-Z22 o-work work
-R8
+Z23 o-work work
+R9
 vdds_top
 R1
 !i10b 1
@@ -159,45 +158,45 @@ R0
 w1719564255
 8../00_source/dds_top.v
 F../00_source/dds_top.v
-!i122 664
+!i122 750
 L0 1 135
 R4
 r1
 !s85 0
 31
 R5
-R15
 R6
-!i113 1
 R7
+!i113 1
 R8
-vdds_top_tb
 R9
+vdds_top_tb
+R10
 R1
 !i10b 1
-!s100 P2i6M5oU9>cFG1cGlBMb@1
+!s100 G1lkg<cK3]gU7BD_]I93;1
 R2
-InPW;bXc3ozX5O:nmaQ7Y90
+I6SaoS]=HD5Sg4G3TWI1X>2
 R3
 S1
 R0
-w1719564094
+w1719666657
 801_testbench/dds_top_tb.sv
 F01_testbench/dds_top_tb.sv
-!i122 664
-L0 3 108
+!i122 750
+L0 3 139
 R4
 r1
 !s85 0
 31
 R5
-R15
 R6
-!i113 1
 R7
+!i113 1
 R8
-vExtBTN_ib
 R9
+vExtBTN_ib
+R10
 !s110 1718785485
 !i10b 1
 !s100 D8b@L0AXFk:WfB57CV^DM0
@@ -207,8 +206,8 @@ R3
 S1
 R0
 w1718785445
-R10
 R11
+R12
 !i122 80
 L0 4 62
 R4
@@ -216,11 +215,11 @@ r1
 !s85 0
 31
 !s108 1718785485.000000
-R12
 R13
-!i113 1
 R14
-R8
+!i113 1
+R15
+R9
 n@ext@b@t@n_ib
 vfillter_mode4
 R1
@@ -233,20 +232,20 @@ R0
 w1719156085
 8../00_source/fillter_mode4.v
 F../00_source/fillter_mode4.v
-!i122 664
+!i122 750
 L0 1 12
 R4
 r1
 !s85 0
 31
 R5
-R15
 R6
-!i113 1
 R7
+!i113 1
 R8
+R9
 vfillter_mode4_tb
-R20
+R21
 !i10b 1
 !s100 HhcZ2XzIDZ1Qoo>ZE?XPf2
 R2
@@ -256,43 +255,43 @@ R0
 w1719157823
 8/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/fillter_mode4_tb.v
 F/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/fillter_mode4_tb.v
-!i122 621
+!i122 697
 L0 5 40
 R4
 r1
 !s85 0
 31
-R21
+R22
 !s107 /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/fillter_mode4_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/fillter_mode4_tb.v|
 !i113 1
-R22
-R8
+R23
+R9
 vinterpolator
 R1
 !i10b 1
-!s100 <hY0Ma8o41cU]TNbCY@6N1
+!s100 28lIK_mFJ^E21b^=4mTEZ0
 R2
-IND^=[;cW2JNNZ6lXz59=M0
+I[^3gG:?B9lHoCI`:X5HZ33
 R3
 R0
-w1719158275
+w1719662419
 8../00_source/interpolator.v
 F../00_source/interpolator.v
-!i122 664
+!i122 750
 L0 1 53
 R4
 r1
 !s85 0
 31
 R5
-R15
 R6
-!i113 1
 R7
+!i113 1
 R8
+R9
 vinterpolator_tb
-R20
+R21
 !i10b 1
 !s100 :8lM[89l8JcMcVg23^Pa22
 R2
@@ -302,43 +301,43 @@ R0
 w1718972229
 8/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v
 F/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v
-!i122 614
+!i122 690
 L0 3 109
 R4
 r1
 !s85 0
 31
-R21
+R22
 !s107 /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v|
 !i113 1
-R22
-R8
+R23
+R9
 vlookup_table
 R1
 !i10b 1
-!s100 d;nK2J7j_SKo`n5?ObW7]0
+!s100 JC4NoiKdWLKgd^_IMdJ`f0
 R2
-I_XhTbX2;XbB6jWEcGYTGH3
+IeRPd9]E>39IA0A;mCQ>Uz3
 R3
 R0
-w1719141262
+w1719662110
 8../00_source/lookup_table.v
 F../00_source/lookup_table.v
-!i122 664
+!i122 750
 L0 1 31
 R4
 r1
 !s85 0
 31
 R5
-R15
 R6
-!i113 1
 R7
+!i113 1
 R8
+R9
 vlookup_table_tb
-R20
+R21
 !i10b 1
 !s100 hz]P@8HDKYIRUH`f6h=Gn3
 R2
@@ -348,18 +347,18 @@ R0
 w1719140792
 8/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/lookup_table_tb.v
 F/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/lookup_table_tb.v
-!i122 619
+!i122 695
 L0 3 50
 R4
 r1
 !s85 0
 31
-R21
+R22
 !s107 /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/lookup_table_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/lookup_table_tb.v|
 !i113 1
-R22
-R8
+R23
+R9
 voscillator
 R1
 !i10b 1
@@ -371,18 +370,18 @@ R0
 w1719158386
 8../00_source/oscillator.v
 F../00_source/oscillator.v
-!i122 664
+!i122 750
 L0 1 86
 R4
 r1
 !s85 0
 31
 R5
-R15
 R6
-!i113 1
 R7
+!i113 1
 R8
+R9
 voscillator_tb
 R16
 !i10b 1
@@ -394,42 +393,41 @@ R0
 w1718966774
 801_testbench/oscillator_tb.v
 F01_testbench/oscillator_tb.v
-!i122 654
+!i122 753
 L0 3 97
 R4
 r1
 !s85 0
 31
 R17
-R18
 R19
+R18
 !i113 1
-R8
+R9
 vpll_module
-R1
+R16
 !i10b 1
 !s100 N9I4<]GD[BjO>`JAb4jjE1
 R2
-I@cF2n@Bo6nn4lmc_0mb5j0
+IUlLzjh:]3M@c=I`Xo<FJD0
 R3
 R0
 w1719147958
 8../00_source/pll_module.v
 F../00_source/pll_module.v
-!i122 664
+!i122 753
 L0 10 55
 R4
 r1
 !s85 0
 31
-R5
-R15
-R6
+R17
+R19
+R18
 !i113 1
-R7
-R8
-vpll_module_tb
 R9
+vpll_module_tb
+R10
 R16
 !i10b 1
 !s100 G6<od4]V;]SmGNYiE:c;;0
@@ -441,17 +439,17 @@ R0
 w1719147921
 801_testbench/pll_module_tb.sv
 F01_testbench/pll_module_tb.sv
-!i122 654
+!i122 753
 L0 3 64
 R4
 r1
 !s85 0
 31
 R17
-R18
 R19
+R18
 !i113 1
-R8
+R9
 vResetGen_Module
 R1
 !i10b 1
@@ -463,21 +461,21 @@ R0
 w1718882355
 8../00_source/ResetGen_Module.v
 F../00_source/ResetGen_Module.v
-!i122 664
+!i122 750
 L0 12 60
 R4
 r1
 !s85 0
 31
 R5
-R15
 R6
-!i113 1
 R7
+!i113 1
 R8
+R9
 n@reset@gen_@module
 vResetGen_Module_tb
-!s110 1719563597
+!s110 1719662169
 !i10b 1
 !s100 <<kDkEEeJa=NX=E<YF6<C3
 R2
@@ -487,18 +485,18 @@ R0
 w1719563576
 8/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/ResetGen_Module_tb.v
 F/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/ResetGen_Module_tb.v
-!i122 655
+!i122 701
 L0 4 41
 R4
 r1
 !s85 0
 31
-!s108 1719563596.000000
+!s108 1719662169.000000
 !s107 /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/ResetGen_Module_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/ResetGen_Module_tb.v|
 !i113 1
-R22
-R8
+R23
+R9
 n@reset@gen_@module_tb
 vrom_witsanu
 !s110 1719139095
@@ -521,8 +519,8 @@ r1
 !s107 /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/rom_witsanu.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/rom_witsanu.v|
 !i113 1
-R22
-R8
+R23
+R9
 vrom_witsanu_tb
 !s110 1719139772
 !i10b 1
@@ -544,31 +542,53 @@ r1
 !s107 /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/rom_witsanu_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/rom_witsanu_tb.v|
 !i113 1
-R22
-R8
-vrotary
+R23
+R9
+vromcoefv2
 R1
 !i10b 1
-!s100 ?BaPAnkDin0eJ4CdG<[gB0
+!s100 f@XLWRSW2UF0F[m@zY?Pc3
 R2
-I=lYl:TX?9ec?Wg7]FZem@2
+Il=<WAS18l:a5S@]P0_4Cd1
 R3
 R0
-w1719148339
-8../00_source/rotary.v
-F../00_source/rotary.v
-!i122 664
-L0 1 134
+w1719662088
+8../00_source/romcoefv2.v
+F../00_source/romcoefv2.v
+!i122 750
+R20
 R4
 r1
 !s85 0
 31
 R5
-R15
 R6
-!i113 1
 R7
+!i113 1
 R8
+R9
+vrotary
+R16
+!i10b 1
+!s100 iOVfWCIKUzf<ETzje4z5H1
+R2
+ICfWR;MDL0gUS]JCbiKoLh1
+R3
+R0
+w1719148339
+8../00_source/rotary.v
+F../00_source/rotary.v
+!i122 753
+L0 1 134
+R4
+r1
+!s85 0
+31
+R17
+R19
+R18
+!i113 1
+R9
 vrotary_tb
 R16
 !i10b 1
@@ -580,40 +600,39 @@ R0
 w1719141786
 801_testbench/rotary_tb.v
 F01_testbench/rotary_tb.v
-!i122 654
+!i122 753
 L0 3 444
 R4
 r1
 !s85 0
 31
 R17
-R18
 R19
+R18
 !i113 1
-R8
+R9
 vsampling_control
-R1
+R16
 !i10b 1
 !s100 YiePR9g9cY2ZDhV;QPlmA2
 R2
-I2cZZf^=VcY@b1T38EW;aM1
+I:mmKNonnz6Q76dn:7HKRn1
 R3
 R0
 w1718890665
 8../00_source/sampling_control.v
 F../00_source/sampling_control.v
-!i122 664
+!i122 753
 L0 1 73
 R4
 r1
 !s85 0
 31
-R5
-R15
-R6
+R17
+R19
+R18
 !i113 1
-R7
-R8
+R9
 vsampling_control_tb
 R16
 !i10b 1
@@ -625,14 +644,14 @@ R0
 w1718891246
 801_testbench/sampling_control_tb.v
 F01_testbench/sampling_control_tb.v
-!i122 654
+!i122 753
 L0 3 123
 R4
 r1
 !s85 0
 31
 R17
-R18
 R19
+R18
 !i113 1
-R8
+R9

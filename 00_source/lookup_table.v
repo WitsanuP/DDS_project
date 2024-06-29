@@ -13,7 +13,7 @@ module lookup_table(Fg_CLK, RESETn, Address, out1, out2, sin1x, cos2x);
 
     wire [47:0] coef;
 
-    coef_prom rom_module(
+    romcoefv2 rom_module(
         .dout(coef), //output [47:0] dout
 
         .clk(Fg_CLK), //input clk

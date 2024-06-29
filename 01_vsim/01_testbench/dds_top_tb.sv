@@ -1,4 +1,4 @@
-`timescale 1ps/1ps
+`timescale 1ns/1ns
 
 module dds_top_tb();
 
@@ -90,11 +90,42 @@ module dds_top_tb();
 
     // ----------- test scenarios -----------
     initial begin
-        $display("Starting test");
+        
         repeat(100)@(posedge clk_tb);
         reset_BTN();
-        mode_BTN();
+        repeat(2000)@(posedge clk_tb);//
+        $display("Starting test");
+        
+        // ----------- test each mode -------
+        // mode_BTN();
+        // repeat(5000)@(posedge clk_tb);
+        // mode_BTN();
+        // repeat(50000)@(posedge clk_tb);
+        // mode_BTN();
+        // repeat(250000)@(posedge clk_tb);
+        // mode_BTN();
+        // repeat(5000000)@(posedge clk_tb);
+        // mode_BTN();
+        // repeat(1000)@(posedge clk_tb);
+        
+        // ---------- test loop mode --------
+        repeat(10)begin
+            mode_BTN();
+            repeat(5000)@(posedge clk_tb);
+        end
 
+        // test step BTN
+
+        // test rotery
+        
+        // test reset
+
+        // test 
+        // repeat(500)begin
+        //     cw_task();
+        //     repeat(100)@(posedge clk_tb);
+        // end
+        
         
         repeat(5000)@(posedge clk_tb);
         $stop;

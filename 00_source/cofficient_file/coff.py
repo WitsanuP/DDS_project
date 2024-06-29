@@ -1,6 +1,6 @@
 import math
 
-f = open("coefficient.mi","w")
+f = open("coefficient2.mi","w")
 
 f.write("#File_format=Hex\n")
 f.write("#Address_depth=2048\n")
@@ -10,7 +10,7 @@ n = 100
 
 for i in range(0,2048):
     alpha = math.sin(2*math.pi*n/24000) * 0.95
-    alpha = round(alpha *1073741824, 0)
+    alpha = round(alpha *536870912, 0)
     alpha = int(alpha) >> 4
 
     y1 = math.cos(2*math.pi*n/24000)

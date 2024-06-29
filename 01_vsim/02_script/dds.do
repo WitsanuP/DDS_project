@@ -21,6 +21,8 @@ sim:/dds_top_tb/dut/lock \
 sim:/dds_top_tb/dut/pll_reset\
 sim:/dds_top_tb/dut/output_Dac_CLK\
 
+add wave -position insertpoint sim:/dds_top_tb/dut/ROTARY_module/count
+add wave -position insertpoint sim:/dds_top_tb/dut/OSC_module/Mode
 
 restart -force
 
