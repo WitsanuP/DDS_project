@@ -1,0 +1,76 @@
+digraph G {
+    graph [rankdir = LR];
+    plines=polyline;//ortho;
+    node[shape=record];
+    /*
+    Bar[label="{ \"Bar\"|{<p1>pin 1|<p2>     2|<p3>     3|<p4>     4|<p5>     5} }"];
+    Foo[label="{ {<data0>data0|<data1>data1|<data2>data2|<data3>data3|<data4>data4}|\"Foo\" |{<out0>out0|<out1>out1|<out2>out2|<GND>gnd|<ex0>ex0|<hi>hi|<lo>lo} }"];
+
+    Bew[label="{ {<clk>clk|<syn>syn|<mux0>mux0|<mux1>mux1|<signal>signal}|\"Bew\" |{<out0>out0|<out1>out1|<out2>out2} }"];
+        */
+        
+        // Ext 
+    ExtCLK27M
+    ExtRESETn
+    {rank=source;  ExtCLK27M;  ExtRESETn;    unit2;    }
+    ExtCLK27M -> PLL:clkin;
+        //edge [dir=back arrowtail=diamond style=dashed]
+        ExtCLK27M -> reset_gen:clk;
+        ExtRESETn -> reset_gen:ExtRESETn;
+    subgraph cluster_0 {
+        label = "part #1";
+        style=filled;
+        color=lightgrey;
+        
+        node [
+            fontname="Helvetica,Arial,sans-serif"
+            shape=record
+            style=filled
+            fillcolor=gray95
+        ]
+        PLL[label="{ {<clkin>clkin|<reset>reset}|\"PLL\" |{<clkout>clkout|<lock>lock} }"];
+        CLK_divider[label="{ {<PLL_CLK>PLL_CLK|<RESETn>RESETn}|\"CLK_divider\" |{<Fg_CLK>Fg_CLK|<Dac_CLK>Dac_CLK} }"];
+        reset_gen[label="{ {<clk>clk|<ExtRESETn>ExtRESETn|<PllLocked>PllLocked}|\"reset_gen\" |{<PllRESETn>PllRESETn|<FgRESETn>FgRESERTn} }"];
+
+        node [
+        fontname="Helvetica,Arial,sans-serif"
+        shape=record
+        style=filled
+        fillcolor=gray95
+        ]
+        edge [fontname="Helvetica,Arial,sans-serif"]
+        edge [arrowhead=vee style=dashed]
+
+        
+        reset_gen:PllRESETn -> PLL:reset [id = 9];
+        reset_gen:FgRESETn -> CLK_divider [id =3];
+        PLL:lock -> reset_gen:PllLocked[label = "lock "];
+        PLL:clkpout -> CLK_divider:PLL_CLK; //[label="git restore ..." color="#88000088"] {rank=same PLL:clkpout CLK_divider:PLL_CLK};
+
+}
+
+
+button_c[label="{{<Fg_CLK>Fg_CLK|<RESETn>RESETn|<ExtBTN>ExtBTN}|button|{<IntBTN>IntBTN}}"]
+button_simp[label="{{<Fg_CLK>Fg_CLK|<RESETn>RESETn|<ExtBTN>ExtBTN}|button|{<IntBTN>IntBTN}}"]
+simp[label="{{<Fg_CLK>Fg_CLK|<RESETn>RESETn|<IntBTN>IntBTN}|simp|{<Ready>Ready|<Enable>Enable|<Mode>Mode}}"]
+rotary[label="{{<Fg_CLK>Fg_CLK|<RESETn>RESETn|<Rot_A>Rot_A|<Rot_B>Rot_B|<Rot_C>Rot_C}|rotary|{<Address>Address|<FreqChng>Freqchng}}"]
+lookup_table[label = "{{;<Fg_CLK>Fg_CLK|<oce>oce|<oe>oe|<RESETn>RESETn|<ad>ad}|lookup|{<sin1x>sin1x|<cos2x>cos2x }}"]
+osc 
+interpOut
+    /*
+    Bar:p1 -> Foo:data0;
+    Bar:p2 -> Foo:data1;
+    Bar:p3 -> Foo:data2;
+    Bar:p4 -> Foo:data3;
+    Bar:p5 -> Foo:data4;
+
+    Foo:out0 -> Bew:mux0;
+    Foo:out1 -> Bew:mux1;
+    Bew:clk -> Foo:ex0;
+
+    Gate[label="{ {<a>a|<b>b}|OR|{<ab>a\|b} }"];
+
+    Foo:hi -> Gate:a;
+    Foo:lo -> Gate:b;
+    Gate:ab -> Bew:signal;*/
+}

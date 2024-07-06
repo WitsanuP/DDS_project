@@ -2,19 +2,51 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
-   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/coef_prom.v",
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/button.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/gowin_prom.v",
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/clk_divider.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_rpll/pll_module.v",
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/coef_prom.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/romcoefv2.v",
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/interpolator.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/lookup_table.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/oscillator.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/pll_module.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/ResetGen_Module.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/romcoefv2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/rotary.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/sampling_control.v",
    "Type" : "verilog"
   }
  ],

@@ -1,34 +1,110 @@
 [
  {
-  "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/coef_prom.v",
+  "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/coef_prom.v",
   "InstLine" : 10,
   "InstName" : "coef_prom",
-  "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/coef_prom.v",
+  "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/coef_prom.v",
   "ModuleLine" : 10,
   "ModuleName" : "coef_prom"
  },
  {
-  "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/gowin_prom.v",
-  "InstLine" : 10,
-  "InstName" : "Gowin_pROM",
-  "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/gowin_prom.v",
-  "ModuleLine" : 10,
-  "ModuleName" : "Gowin_pROM"
- },
- {
-  "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_rpll/pll_module.v",
-  "InstLine" : 10,
-  "InstName" : "pll_module",
-  "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_rpll/pll_module.v",
-  "ModuleLine" : 10,
-  "ModuleName" : "pll_module"
- },
- {
-  "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/romcoefv2.v",
-  "InstLine" : 10,
-  "InstName" : "romcoefv2",
-  "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/gowin_prom/romcoefv2.v",
-  "ModuleLine" : 10,
-  "ModuleName" : "romcoefv2"
+  "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v",
+  "InstLine" : 1,
+  "InstName" : "dds_top",
+  "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "dds_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v",
+    "InstLine" : 22,
+    "InstName" : "RESETGEN_module",
+    "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/ResetGen_Module.v",
+    "ModuleLine" : 12,
+    "ModuleName" : "ResetGen_Module"
+   },
+   {
+    "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v",
+    "InstLine" : 32,
+    "InstName" : "PLL_module",
+    "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/pll_module.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "pll_module"
+   },
+   {
+    "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v",
+    "InstLine" : 40,
+    "InstName" : "CLK_DIV_module",
+    "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/clk_divider.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "clk_divider"
+   },
+   {
+    "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v",
+    "InstLine" : 63,
+    "InstName" : "MODE_BTN_module",
+    "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/button.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "button"
+   },
+   {
+    "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v",
+    "InstLine" : 71,
+    "InstName" : "SAMP_module",
+    "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/sampling_control.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "sampling_control"
+   },
+   {
+    "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v",
+    "InstLine" : 81,
+    "InstName" : "STEP_BTN_module",
+    "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/button.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "button"
+   },
+   {
+    "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v",
+    "InstLine" : 89,
+    "InstName" : "ROTARY_module",
+    "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/rotary.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "rotary"
+   },
+   {
+    "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v",
+    "InstLine" : 100,
+    "InstName" : "lookup_module",
+    "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/lookup_table.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "lookup_table",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/lookup_table.v",
+      "InstLine" : 16,
+      "InstName" : "rom_module",
+      "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/romcoefv2.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "romcoefv2"
+     }
+    ]
+   },
+   {
+    "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v",
+    "InstLine" : 111,
+    "InstName" : "OSC_module",
+    "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/oscillator.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "oscillator"
+   },
+   {
+    "InstFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v",
+    "InstLine" : 125,
+    "InstName" : "INTERPOLATOR_module",
+    "ModuleFile" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/interpolator.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "interpolator"
+   }
+  ]
  }
 ]

@@ -14,6 +14,7 @@ Running routing......
 [80%] Routing Phase 2 completed
 [90%] Routing Phase 3 completed
 Running timing analysis......
+NOTE  (TA1125) : More than 30 critical paths are ignored because having large logic level.
 [95%] Timing analysis completed
 Placement and routing completed
 Bitstream generation in progress......
@@ -25,5 +26,5 @@ Generate file "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS
 Generate file "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/impl/pnr/DDS_project.rpt.html" completed
 Generate file "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/impl/pnr/DDS_project.rpt.txt" completed
 Generate file "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/impl/pnr/DDS_project.tr.html" completed
-Sat Jun 29 18:48:28 2024
+Fri Jul  5 14:15:01 2024
 
