@@ -1,2 +1,5 @@
 .gitnote
 .note
+*.vcd
+01_vsim/work/
+01_vsim/gowin/

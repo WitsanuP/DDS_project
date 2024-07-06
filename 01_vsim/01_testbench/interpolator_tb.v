@@ -35,7 +35,8 @@ module interpolator_tb();
         .Ready(Ready_o), 
         .init1(32'd96_878_045), 
         .init2(32'd1_054_193_702),
-
+	.Mode(0),
+	.freqchange(0),
         .out1(out1_o), 
         .out2(out2_o)
     );
@@ -47,7 +48,7 @@ module interpolator_tb();
         .Mode(Mode_o), 
         .Enable(Enable_o), 
 
-        .interpOut(interpOut_o)
+        .osc_out(interpOut_o)
     );
 
     // ----------- system signal generator-----------
