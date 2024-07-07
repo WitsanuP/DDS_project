@@ -48,13 +48,12 @@ always @(posedge Fg_CLK or negedge RESETn) begin
     if(~RESETn)begin
         enable_counter <= 0 ;
     end
-    else if(~(counter < time_counter_limit && (enable_counter == 1)))begin
-        enable_counter <= 0;
-    end
     else if(IntBTN)begin
         enable_counter <= 1;
     end
-
+    else if(~(counter < time_counter_limit && (enable_counter == 1)))begin
+        enable_counter <= 0;
+    end
 end
 
 endmodule

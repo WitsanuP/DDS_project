@@ -6,7 +6,7 @@ module interpolator(Fg_CLK, RESETn, out1, out2, Mode, Enable, osc_out);
     input [3:0] Mode;
     input Enable;
 
-    output reg [11:0] osc_out; //12 bit unsigned
+    output wire [11:0] osc_out; //12 bit unsigned
 
     reg Enable_delay;
     reg [31:0] delta_y;
@@ -15,6 +15,7 @@ module interpolator(Fg_CLK, RESETn, out1, out2, Mode, Enable, osc_out);
     reg [11:0] interpOut; // 12 bit signed
 
     assign osc_out =  {~interpOut[11], interpOut[10:0]}; //offset binary, unsigned
+  
 
     always @(*)begin //combination
         delta_y_buffer <=  $signed(out1-out2)/$signed(10**Mode);

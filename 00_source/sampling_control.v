@@ -23,7 +23,7 @@ module sampling_control(Fg_CLK,RESETn,IntBTN,Ready,Enable,Mode);
             else begin
                 Mode <= 0;
             end
-            reg_pulse <= 0;
+            
         end
     end
 
@@ -48,21 +48,22 @@ module sampling_control(Fg_CLK,RESETn,IntBTN,Ready,Enable,Mode);
 
     //------------- counter ready ------------
     always @(posedge Fg_CLK or negedge RESETn)begin
-        if(~RESETn)begin
-            counter_Ready <= 0;
-            Ready <= 0;
-        end
-        else if (counter_Ready < 80) begin
-            counter_Ready <= counter_Ready + 1;
-        end
-        
-        if(counter_Ready == 79) Ready <= 1;
+        if(~RESETn)counter_Ready <= 0;
+        else if (counter_Ready < 80) counter_Ready <= counter_Ready + 1;
+    end
+    //------------- Ready ------------
+    always @(posedge Fg_CLK or negedge RESETn)begin
+        if(~RESETn) Ready <= 0;
+        else if(counter_Ready == 79) Ready <= 1;
         else Ready <= 0;
     end
 
     //------------- reg_pulse ------------
     always @(posedge Fg_CLK or negedge RESETn)begin
         if(~RESETn)begin
+            reg_pulse <= 0;
+        end
+        else if (reg_pulse && Enable)begin
             reg_pulse <= 0;
         end
         else if (IntBTN) begin

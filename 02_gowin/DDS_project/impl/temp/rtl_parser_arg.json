@@ -2,6 +2,10 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
+   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/ResetGen_Module.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/button.v",
    "Type" : "verilog"
   },
@@ -31,10 +35,6 @@
   },
   {
    "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/pll_module.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/ResetGen_Module.v",
    "Type" : "verilog"
   },
   {

@@ -1,0 +1,47 @@
+//Copyright (C)2014-2023 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.9 Beta-4 Education
+//Part Number: GW1NR-LV9QN88PC6/I5
+//Device: GW1NR-9
+//Device Version: C
+//Created Time: Sun 07 07 19:49:32 2024
+
+IO_LOC "output_interp_unsigned[11]" 38;
+IO_PORT "output_interp_unsigned[11]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "output_interp_unsigned[10]" 37;
+IO_PORT "output_interp_unsigned[10]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "output_interp_unsigned[9]" 36;
+IO_PORT "output_interp_unsigned[9]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "output_interp_unsigned[8]" 39;
+IO_PORT "output_interp_unsigned[8]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "output_interp_unsigned[7]" 25;
+IO_PORT "output_interp_unsigned[7]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "output_interp_unsigned[6]" 26;
+IO_PORT "output_interp_unsigned[6]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "output_interp_unsigned[5]" 27;
+IO_PORT "output_interp_unsigned[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "output_interp_unsigned[4]" 28;
+IO_PORT "output_interp_unsigned[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "output_interp_unsigned[3]" 29;
+IO_PORT "output_interp_unsigned[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "output_interp_unsigned[2]" 30;
+IO_PORT "output_interp_unsigned[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "output_interp_unsigned[1]" 33;
+IO_PORT "output_interp_unsigned[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "output_interp_unsigned[0]" 34;
+IO_PORT "output_interp_unsigned[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "output_Dac_CLK" 40;
+IO_PORT "output_Dac_CLK" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "input_BTN_step" 56;
+IO_PORT "input_BTN_step" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "input_Rot_B" 68;
+IO_PORT "input_Rot_B" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "input_Rot_A" 69;
+IO_PORT "input_Rot_A" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "input_BTN_mode" 55;
+IO_PORT "input_BTN_mode" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "input_RESET_gen" 57;
+IO_PORT "input_RESET_gen" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "input_clk_27M" 52;
+IO_PORT "input_clk_27M" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;

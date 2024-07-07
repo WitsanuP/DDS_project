@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module name="dds_top" Lut="1">
- <SubModule name="RESETGEN_module" Register="33" Lut="56"/>
+ <SubModule name="RESETGEN_module" Register="33" Lut="55"/>
  <SubModule name="PLL_module"/>
  <SubModule name="CLK_DIV_module" Register="2" Lut="4"/>
- <SubModule name="MODE_BTN_module" Register="4" Lut="1"/>
- <SubModule name="SAMP_module" Register="28" Lut="77" Dsp="2"/>
- <SubModule name="STEP_BTN_module" Register="4" Lut="1"/>
- <SubModule name="ROTARY_module" Register="59" Alu="34" Lut="80"/>
+ <SubModule name="MODE_BTN_module" Register="28" Lut="53"/>
+ <SubModule name="SAMP_module" Register="28" Alu="6" Lut="71" Dsp="2"/>
+ <SubModule name="STEP_BTN_module" Register="28" Lut="51"/>
+ <SubModule name="ROTARY_module" Register="59" Alu="34" Lut="82"/>
  <SubModule name="lookup_module">
   <SubModule name="rom_module" Bsram="6"/>
  </SubModule>
- <SubModule name="OSC_module" Register="65" Alu="32" Lut="107" Dsp="1"/>
- <SubModule name="INTERPOLATOR_module" Register="73" Alu="555" Lut="2042" Dsp="3"/>
+ <SubModule name="OSC_module" Register="65" Alu="32" Lut="108" Dsp="1"/>
+ <SubModule name="INTERPOLATOR_module" Register="73" Alu="554" Lut="2093" Dsp="3"/>
 </Module>

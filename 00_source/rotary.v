@@ -27,7 +27,7 @@ module rotary(Fg_CLK, RESETn, Rot_A, Rot_B, Rot_C, Address, FreqChng);
     `endif 
 
     //syn Rot_A (A1, A2) and make pulse from falling edge(A3)
-    always @(negedge Fg_CLK or RESETn) begin
+    always @(posedge Fg_CLK or negedge RESETn) begin
         if(~RESETn) begin
             A1 <= 0;
             A2 <= 0;
@@ -43,7 +43,7 @@ module rotary(Fg_CLK, RESETn, Rot_A, Rot_B, Rot_C, Address, FreqChng);
     end 
 
     //syn Rot_B (B1, B2) and make pulse from falling edge(B3)
-    always @(negedge Fg_CLK or RESETn) begin
+    always @(posedge Fg_CLK or negedge RESETn) begin
         if(~RESETn) begin
             B1 <= 0;
             B2 <= 0;
