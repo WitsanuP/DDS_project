@@ -57,5 +57,4 @@ always @(posedge Fg_CLK or negedge RESETn) begin
     
 
 end
-
 endmodule
