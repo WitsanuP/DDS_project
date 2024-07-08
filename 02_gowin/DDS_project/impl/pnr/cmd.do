@@ -3,6 +3,7 @@
 -pn GW1NR-LV9QN88PC6/I5
 -cst /home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/DDS_project.cst
 -cfg /home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/impl/pnr/device.cfg
+-sdc /home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/DDS_project.sdc
 -bit
 -tr
 -ph

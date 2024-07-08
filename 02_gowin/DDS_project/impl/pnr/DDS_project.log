@@ -4,12 +4,27 @@ Processing netlist completed
 Reading constraint file: "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/DDS_project.cst"
 Physical Constraint parsed completed
 Running placement......
-ERROR  (PR2028) : The constrained location is useless in current package
-ERROR  (PR2017) : 'input_BTN_step' cannot be placed according to constraint, for the location is a dedicated pin (SSPI)
-ERROR  (PR2028) : The constrained location is useless in current package
-ERROR  (PR2017) : 'input_BTN_mode' cannot be placed according to constraint, for the location is a dedicated pin (SSPI)
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+NOTE  (TA1125) : More than 30 critical paths are ignored because having large logic level.
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/impl/pnr/DDS_project.power.html" completed
 Generate file "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/impl/pnr/DDS_project.pin.html" completed
 Generate file "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/impl/pnr/DDS_project.rpt.html" completed
 Generate file "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/impl/pnr/DDS_project.rpt.txt" completed
-Sun Jul  7 20:31:26 2024
+Generate file "/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/impl/pnr/DDS_project.tr.html" completed
+Mon Jul  8 18:10:57 2024
 
