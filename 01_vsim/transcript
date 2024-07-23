@@ -1,21 +1,168 @@
 # Loading project DDS_project
-vsim work.button_tb
-# vsim work.button_tb 
-# Start time: 14:48:43 on Jul 10,2024
+# Load canceled
+do 02_script/dds.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:16:01 on Jul 23,2024
+# vlog -reportprogress 300 -file ./00_filelist/src_dds.f -file ./00_filelist/tb_dds.f "+define+TEST_MODE" 
+# -- Compiling module lookup_table
+# -- Compiling module dds_top
+# -- Compiling module romcoefv2
+# -- Compiling module ResetGen_Module
+# -- Compiling module rotary
+# -- Compiling module pll_module
+# -- Compiling module interpolator
+# -- Compiling module sampling_control
+# -- Compiling module clk_divider
+# -- Compiling module coef_prom
+# -- Compiling module button
+# -- Compiling module oscillator
+# -- Compiling module fillter_mode4
+# -- Compiling module dds_top_tb
+# 
+# Top level modules:
+# 	coef_prom
+# 	fillter_mode4
+# 	dds_top_tb
+# End time: 14:16:01 on Jul 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L gowin work.dds_top_tb 
+# Start time: 14:16:01 on Jul 23,2024
 # Loading sv_std.std
-# Loading work.button_tb
+# Loading work.dds_top_tb
+# Loading work.dds_top
+# Loading work.ResetGen_Module
+# Loading work.pll_module
+# Loading gowin.rPLL
+# Loading work.clk_divider
 # Loading work.button
+# Loading work.sampling_control
+# Loading work.rotary
+# Loading work.lookup_table
+# Loading work.romcoefv2
+# Loading gowin.pROM
+# Loading work.oscillator
+# Loading work.interpolator
+# Starting test
+# ** Note: $stop    : 01_testbench/dds_top_tb.sv(131)
+#    Time: 2117588854 ns  Iteration: 1  Instance: /dds_top_tb
+# Break in Module dds_top_tb at 01_testbench/dds_top_tb.sv line 131
+# 0 ps
+# 2223468296700 ps
+vsim -L gowin work.oscillator_tb
+# End time: 14:19:07 on Jul 23,2024, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 1
+# vsim -L gowin work.oscillator_tb 
+# Start time: 14:19:07 on Jul 23,2024
+# Loading work.oscillator_tb
+# Loading work.sampling_control
+# Loading work.oscillator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'osc_module'.  Expected 10, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v Line: 29
+# ** Warning: (vsim-3722) /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v(29): [TFMPC] - Missing connection for port 'Mode'.
+# ** Warning: (vsim-3722) /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v(29): [TFMPC] - Missing connection for port 'freqchange'.
+add wave -position insertpoint  \
+sim:/oscillator_tb/Fg_CLK_i \
+sim:/oscillator_tb/RESETn_i \
+sim:/oscillator_tb/IntBTN_i \
+sim:/oscillator_tb/Ready_o \
+sim:/oscillator_tb/Enable_o \
+sim:/oscillator_tb/Mode_o \
+sim:/oscillator_tb/out1_o \
+sim:/oscillator_tb/out2_o
 run -all
 # Starting test
-# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv(62)
-#    Time: 66832264 ps  Iteration: 1  Instance: /button_tb
-# Break in Module button_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv line 62
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v(91)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /oscillator_tb
+# Break in Module oscillator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v line 91
+vsim -L gowin work.interpolator_tb
+# End time: 14:21:19 on Jul 23,2024, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 4
+# vsim -L gowin work.interpolator_tb 
+# Start time: 14:21:19 on Jul 23,2024
+# Loading work.interpolator_tb
+# Loading work.sampling_control
+# Loading work.oscillator
+# Loading work.interpolator
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'Mode'. The port definition is at: ../00_source/oscillator.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /interpolator_tb/osc_module File: /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'freqchange'. The port definition is at: ../00_source/oscillator.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /interpolator_tb/osc_module File: /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v Line: 31
+vsim -L gowin work.interpolator_tb
+# End time: 14:22:22 on Jul 23,2024, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 3
+# vsim -L gowin work.interpolator_tb 
+# Start time: 14:22:22 on Jul 23,2024
+# Loading work.interpolator_tb
+# Loading work.sampling_control
+# Loading work.oscillator
+# Loading work.interpolator
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'Mode'. The port definition is at: ../00_source/oscillator.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /interpolator_tb/osc_module File: /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'freqchange'. The port definition is at: ../00_source/oscillator.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /interpolator_tb/osc_module File: /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v Line: 31
+vsim -L gowin work.oscillator_tb
+# End time: 14:25:14 on Jul 23,2024, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 3
+# vsim -L gowin work.oscillator_tb 
+# Start time: 14:25:14 on Jul 23,2024
+# Loading work.oscillator_tb
+# Loading work.sampling_control
+# Loading work.oscillator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'osc_module'.  Expected 10, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v Line: 29
+# ** Warning: (vsim-3722) /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v(29): [TFMPC] - Missing connection for port 'Mode'.
+# ** Warning: (vsim-3722) /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v(29): [TFMPC] - Missing connection for port 'freqchange'.
 add wave -position insertpoint  \
-sim:/button_tb/Fg_CLK_i \
-sim:/button_tb/task_CLK \
-sim:/button_tb/RESETn_i \
-sim:/button_tb/ExtBTN_i \
-sim:/button_tb/IntBTN_o
+sim:/oscillator_tb/Fg_CLK_i \
+sim:/oscillator_tb/RESETn_i \
+sim:/oscillator_tb/IntBTN_i \
+sim:/oscillator_tb/Ready_o \
+sim:/oscillator_tb/Enable_o \
+sim:/oscillator_tb/Mode_o \
+sim:/oscillator_tb/out1_o \
+sim:/oscillator_tb/out2_o
 run -all
-# End time: 14:50:19 on Jul 10,2024, Elapsed time: 0:01:36
-# Errors: 0, Warnings: 1
+# Starting test
+# ** Note: $stop    : /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v(91)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /oscillator_tb
+# Break in Module oscillator_tb at /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v line 91
+# Compile of oscillator.v was successful.
+# Compile of oscillator_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+do 02_script/rerun.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:32:39 on Jul 23,2024
+# vlog -reportprogress 300 -file ./00_filelist/src.f -file ./00_filelist/tb.f 
+# -- Compiling module pll_module
+# -- Compiling module clk_divider
+# -- Compiling module sampling_control
+# -- Compiling module rotary
+# -- Compiling module pll_module_tb
+# -- Compiling module clk_divider_tb
+# -- Compiling module sampling_control_tb
+# -- Compiling module oscillator_tb
+# -- Compiling module rotary_tb
+# 
+# Top level modules:
+# 	pll_module_tb
+# 	clk_divider_tb
+# 	sampling_control_tb
+# 	oscillator_tb
+# 	rotary_tb
+# End time: 14:32:39 on Jul 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Closing VCD file "oscillator_tb.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.oscillator_tb
+# Loading work.sampling_control
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'osc_module'.  Expected 10, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /oscillator_tb/osc_module File: 01_testbench/oscillator_tb.v Line: 29
+# ** Warning: (vsim-3722) 01_testbench/oscillator_tb.v(29): [TFMPC] - Missing connection for port 'Mode'.
+# ** Warning: (vsim-3722) 01_testbench/oscillator_tb.v(29): [TFMPC] - Missing connection for port 'freqchange'.
+# Starting test
+# ** Note: $stop    : 01_testbench/oscillator_tb.v(93)
+#    Time: 54418254294 ps  Iteration: 1  Instance: /oscillator_tb
+# Break in Module oscillator_tb at 01_testbench/oscillator_tb.v line 93
+# 0 ps
+# 57139167009 ps
