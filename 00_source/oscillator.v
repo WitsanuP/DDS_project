@@ -44,7 +44,7 @@ module oscillator (Fg_CLK, RESETn, Enable, Ready, init1, init2, Mode, freqchange
 
     always @(posedge Fg_CLK or negedge RESETn)begin //sequential
         if      (~RESETn)   out2 <= 0;
-        else if (Ready | do_update)     out2 <= 0;
+        else if (Ready | do_update)     out2 <= 32'h000000AB;
         else if (Enable)    out2 <= out1;
     end
 

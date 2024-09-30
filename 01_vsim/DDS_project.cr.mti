@@ -19,6 +19,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	coef_prom
 
+} {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/romcoefv2.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/romcoefv2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Gowin_pROM
+
+Top level modules:
+	Gowin_pROM
+
 } {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/interpolator.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/interpolator.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module interpolator
@@ -32,13 +39,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	sampling_control
-
-} {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/romcoefv2.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/romcoefv2.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module romcoefv2
-
-Top level modules:
-	romcoefv2
 
 } {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/clk_divider_tb.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/clk_divider_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -68,19 +68,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	lookup_table_tb
 
-} {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/ResetGen_Module_tb.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/ResetGen_Module_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ResetGen_Module_tb
-
-Top level modules:
-	ResetGen_Module_tb
-
 } {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/fillter_mode4_tb.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/fillter_mode4_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module fillter_mode4_tb
 
 Top level modules:
 	fillter_mode4_tb
+
+} {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/pll_module.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/pll_module.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pll_module
+
+Top level modules:
+	pll_module
 
 } {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/dds_top.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/dds_top.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -89,12 +89,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	dds_top
 
-} {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/pll_module.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/pll_module.v
+} {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/ResetGen_Module_tb.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/ResetGen_Module_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module pll_module
+-- Compiling module ResetGen_Module_tb
 
 Top level modules:
-	pll_module
+	ResetGen_Module_tb
 
 } {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/interpolator_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -110,6 +110,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	sampling_control_tb
 
+} {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/oscillator_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module oscillator_tb
+
+Top level modules:
+	oscillator_tb
+
 } {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/pll_module_tb.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/pll_module_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module pll_module_tb
@@ -123,6 +130,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	clk_divider
+
+} {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/poohTop.sv {1 {vlog -work work -sv -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/poohTop.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module poohTop
+
+Top level modules:
+	poohTop
 
 } {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv {1 {vlog -work work -sv -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/button_tb.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -138,6 +152,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	fillter_mode4
 
+} {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/dds_top_tb.sv {1 {vlog -work work -sv -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/dds_top_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dds_top_tb
+
+Top level modules:
+	dds_top_tb
+
 } {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/pll_module_tb.sv {1 {vlog -work work -sv -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/pll_module_tb.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module pll_module_tb
@@ -145,12 +166,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	pll_module_tb
 
-} {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/dds_top_tb.sv {1 {vlog -work work -sv -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/dds_top_tb.sv
+} {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/00_source/oscillator.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module dds_top_tb
+-- Compiling module oscillator
 
 Top level modules:
-	dds_top_tb
+	oscillator
 
 } {} {}} /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/coef_prom_tb.v {1 {vlog -work work -stats=none /home/pol/Documents/KMITL/year3/project1/DDS_project/01_vsim/01_testbench/coef_prom_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

@@ -8,7 +8,7 @@
         <File path="src/ResetGen_Module.v" type="file.verilog" enable="1"/>
         <File path="src/button.v" type="file.verilog" enable="1"/>
         <File path="src/clk_divider.v" type="file.verilog" enable="1"/>
-        <File path="src/coef_prom.v" type="file.verilog" enable="1"/>
+        <File path="src/coef_prom.v" type="file.verilog" enable="0"/>
         <File path="src/dds_top.v" type="file.verilog" enable="1"/>
         <File path="src/fillter_mode4.v" type="file.verilog" enable="0"/>
         <File path="src/gowin_prom/coef_prom.v" type="file.verilog" enable="0"/>
@@ -20,6 +20,8 @@
         <File path="src/oscillator.v" type="file.verilog" enable="1"/>
         <File path="src/pll_module.v" type="file.verilog" enable="1"/>
         <File path="src/romcoefv2.v" type="file.verilog" enable="1"/>
+        <File path="src/romnew/gowin_prom/gowin_prom.v" type="file.verilog" enable="0"/>
+        <File path="src/romnew/gowin_prom/gowin_promnew.v" type="file.verilog" enable="0"/>
         <File path="src/rotary.v" type="file.verilog" enable="1"/>
         <File path="src/sampling_control.v" type="file.verilog" enable="1"/>
         <File path="src/DDS_project.cst" type="file.cst" enable="1"/>

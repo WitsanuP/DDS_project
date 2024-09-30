@@ -7,7 +7,6 @@
         <File path="/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/ResetGen_Module.v" type="verilog"/>
         <File path="/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/button.v" type="verilog"/>
         <File path="/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/clk_divider.v" type="verilog"/>
-        <File path="/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/coef_prom.v" type="verilog"/>
         <File path="/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/dds_top.v" type="verilog"/>
         <File path="/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/interpolator.v" type="verilog"/>
         <File path="/home/pol/Documents/KMITL/year3/project1/DDS_project/02_gowin/DDS_project/src/lookup_table.v" type="verilog"/>
